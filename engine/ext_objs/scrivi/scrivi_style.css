@@ -1,0 +1,25 @@
+
+.ext_generic_object_container{
+	text-align:center;
+	height: 100%;
+}
+
+.ext_generic_object_text_coloured {
+	color:blue;
+}
+
+.ext_generic_object_text {
+    margin-bottom: 0;
+}
+
+.ext_box_moving_path {
+	width:100%;
+	height:50px;
+	background:#111;
+}
+
+.ext_animated_box {
+	width:50px;
+	height:50px;
+	background:green;
+}

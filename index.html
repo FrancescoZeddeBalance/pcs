@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Skilla Pill</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+		<meta name="author" content="Skilla">	
+		<link rel="shortcut icon" type="image/png" href="./engine/imgs/favicon.png" />
+		
+		<link href="./settings/custom.css" rel="stylesheet" type="text/css" />
+		
+		<style>
+			.ax_loader_pill {width:100%; height:100%; text-align:center;position:fixed; top:52%;}
+			.ax_skilla_animated_logo_loader {width:280px; margin:auto;}
+			.ax_smartphone_pill_container, .ax_scalable_pill_container { display:none;width:100%; height:100%; }
+			.ax_box_pill_container { width:100%; min-height:100%; }		
+			
+			.ax_cover_stripe, .ax_desktop_header_icon  {opacity:0;}	
+			body, html, .ax_pill_body{ 
+				background-color:#303030; 
+				width:100%; height:100%; padding:0; margin:0; 
+			}			
+		</style>
+		
+    </head>
+	<body oncontextmenu="return false;" class="ax_pill_body" id="body_root_element_id">
+
+	<div class="ax_box_pill_container ax_skin">
+	
+		<!-- Loader -->
+		<div class="ax_loader_pill ax_skin">
+			<img class="ax_skilla_animated_logo_loader" src="engine/imgs/skilla_logo_loader.svg" alt="skilla.com" />
+		</div>
+	  
+	  
+		<!-- Pill Container -->
+		<div class="ax_scalable_pill_container ax_skin" id="ax_scalable_pill_container_id" >
+	  
+	  
+		<!-- **** HEADER **** -->
+			<!-- TabletDesktop Header -->
+			<header>
+			<div class="ax_desktop_pill_header_string ax_desktop_element"></div>
+			<div role="heading" aria-level="1" class="ax_desktop_pill_header_title ax_desktop_element" tabindex="4" >Pill title</div>
+
+			<span class="ax_desktop_pill_header_exit_container ax_pill_header_exit_container" >
+				<img role="navigation" class="ax_desktop_pill_header_exit ax_pill_header_exit svg" src="./engine/icons/exit_to_app_24px.svg" alt="exit" />
+			</span>			
+			
+
+			<nav role="navigation" class="ax_pill_header ax_desktop_pill_header ax_desktop_element">
+				<ul class="ax_desktop_pill_header_menu_container"></ul>
+			</nav>
+			
+			<!-- Smartphone Header Navigation -->
+			<nav role="navigation" class="ax_pill_header navbar navbar-expand-lg navbar-dark static-top ax_smartphone_element ax_smartphone_menu_container">
+			<div class="container">
+				<span role="heading" aria-level="1" class="navbar-brand ax_smartphone_pill_header_title" >Pill title</span>
+				<span class="ax_smartphone_pill_header_exit_container ax_pill_header_exit_container" >
+					<img role="navigation" class="ax_smartphone_pill_header_exit ax_pill_header_exit svg" src="./engine/icons/exit_to_app_24px.svg" alt="exit" />
+				</span>
+			
+				<button id="ax_pill_smartphone_navbar-toggler_id" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="TOGGLE_NAVIGATION_PLACEHOLDER" tabindex="5">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse ax_smartphone_pill_menu_list" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto"></ul>
+				</div>
+			</div>
+			</nav>				
+
+			<!-- Smartphone Object title -->
+			<div role="presentation" class="ax_smartphone_object_title text-center ax_smartphone_element" tabindex="18" >
+				object title
+			</div>				
+			</header>
+			
+			
+		<!-- **** BODY **** -->
+			<!-- TabletDesktop Body -->
+			<main role="main" >
+			<div class="ax_desktop_pill_body" >
+				<div class="ax_cover_stripe" aria-roledescription="slide">
+				  <div class="ax_cover_container"></div>
+				  
+				  <!-- TabletDesktop Freccie -->
+					  <div class="ax_desktop_arrow_container ax_desktop_element">
+						<div role="button" id="ax_desktop_left_arrow_id" class="ax_desktop_left_arrow ax_desktop_cover_arrows" tabindex="16" >
+							<img role="presentation" class="ax_desktop_cover_arrows_img svg" src="./engine/icons/chevron_left_24px.svg" alt="prev" />							
+						</div>
+						<div role="button" id="ax_desktop_right_arrow_id" class="ax_desktop_right_arrow ax_desktop_cover_arrows" tabindex="17" >
+							<img role="presentation" class="ax_desktop_cover_arrows_img svg" src="./engine/icons/chevron_right_24px.svg" alt="next" />
+						</div>
+					  </div>
+				</div>
+
+				<div class="ax_object_container ax_current_object_container"></div>
+
+				
+			</div>
+			</main>
+			
+			
+		<!-- **** FOOTER **** -->
+			<!-- TabletDesktop Footer -->
+			<footer>
+			<div class="ax_pill_footer ax_desktop_pill_footer ax_desktop_element">
+				<div class="ax_desktop_pill_footer_internal ax_desktop_element">
+					<span class="ax_desktop_pill_footer_help_button_container" >
+						<img class="ax_desktop_pill_footer_help_button_img ax_pill_footer_help_button_img svg" src="./engine/icons/help_outline_24px.svg" />
+					</span>				
+					<span class="ax_pill_footer_logos ax_desktop_pill_footer_left_logo" >
+						<img class="ax_desktop_pill_footer_left_logo_img ax_pill_footer_left_logo_img svg" src="" />
+					</span>
+					
+					<span class="ax_pill_footer_logos ax_desktop_pill_footer_central_logo" >
+						<img class="ax_desktop_pill_footer_logo_img ax_pill_footer_logo_img svg" src="" />
+					</span>
+					
+
+						
+					<a href="#" class="ax_desktop_pill_footer_completion_bar_container ax_pill_progress_bar" tabindex='1000' role='progressbar' aria-label="TOGGLE_TRACKING_TABLE_PLACEHOLDER" aria-valuemin="0" aria-valuemax="100">
+						<div aria-hidden="true" class="ax_pill_footer_completion_bar_indicator ax_desktop_pill_footer_completion_bar_indicator">
+
+							<img class="ax_desktop_pill_footer_completion_bar_indicator_arrow svg" src="./engine/icons/arrow_drop_down_24px.svg"  alt="footer completion indicator" />
+						</div>
+						<div aria-hidden="true" class="ax_desktop_pill_footer_completion_bar_bg">
+						
+						<div class="ax_pill_footer_completion_bar_fill ax_desktop_pill_footer_completion_bar_fill">
+							&nbsp;
+						</div>
+						</div>
+
+					</a>
+					
+					
+					<span class="ax_pill_footer_percentage_indicator" >
+						<span class="progress_percentage_container" >23</span><span class="progress_percentage_simbol_container" >%</span>
+					</span>					
+					
+					
+				</div>
+			</div>
+			
+			<!-- Smartphone Footer -->
+			<div class="ax_sticky_footer_sapcer ax_smartphone_element">&nbsp;</div>
+			<div class="ax_pill_footer ax_smartphone_pill_footer ax_smartphone_element ax_sticky_footer">
+				
+				<div class="ax_pill_footer_tracking_table_container text-center collapse" id="ax_smartphone_pill_footer_tracking_table_id" >tracking table</div>
+				
+				<a id="ax_pill_smartphone_tracking-table-toggler_id" class="ax_pill_progress_bar" role='progressbar' aria-label="TOGGLE_TRACKING_TABLE_PLACEHOLDER" aria-valuemin="0" aria-valuemax="100">
+				
+					<div aria-hidden="true" class="ax_smartphone_pill_footer_completion_bar_container" >
+						
+						<div class="ax_pill_footer_completion_bar_indicator ax_smartphone_pill_footer_completion_bar_indicator">
+							<span class="progress_percentage_container" >23</span>
+							<span class="progress_percentage_simbol_container" >%</span>
+							<img class="ax_smartphone_pill_footer_completion_bar_indicator_arrow svg" src="./engine/icons/arrow_drop_down_24px.svg" alt="footer completion indicator" />
+						</div>
+							<div class="ax_smartphone_pill_footer_completion_bar_bg">
+								<div class="ax_pill_footer_completion_bar_fill ax_smartphone_pill_footer_completion_bar_fill">
+									&nbsp;
+								</div>
+							</div>
+
+					</div>
+				</a>	
+				
+				
+
+				<div tabindex="-1" class="ax_pill_footer_logos ax_smartphone_pill_footer_central_logo text-center" id="ax_smartphone_pill_footer_central_logo_id" >
+					<img class="ax_smartphone_pill_footer_logo_img ax_pill_footer_logo_img svg" src=""  alt="central logo" />
+				</div>
+				
+				<div tabindex="-1" class="ax_pill_footer_logos ax_smartphone_pill_footer_left_logo text-center" id="ax_smartphone_pill_footer_central_left_logo_id" >
+					<img class="ax_smartphone_pill_footer_left_logo_img ax_pill_footer_left_logo_img svg" src="" alt="left logo" />
+				</div>
+			</div>					
+			</footer>
+	  </div>
+	</div>
+
+        <!-- JavaScript File -->
+        <script src="engine/js/preload.js?cb=1556748305913"></script>
+    </body>
+</html>

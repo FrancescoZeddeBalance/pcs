@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns="http://projecttincan.com/tincan.xsd">
+    <activities>
+        <activity id="http://link.skilla.com/TINCAN/RESOURCE/PILLOLA_5_4/index.html" type="http://adlnet.gov/expapi/activities/course">
+            <name>Skilla - Pill 5.4</name>
+            <description lang="it-IT">A Skilla Learing Pill Example</description>
+            <launch lang="it-IT">./index.html</launch>
+        </activity>
+    </activities>
+</tincan>

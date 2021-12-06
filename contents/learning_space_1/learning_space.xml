@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LS_data>
+
+	<LS_title>Pratiche commerciali scorrette (PCS)</LS_title>
+	<LS_showTipOnClosingMenu>true</LS_showTipOnClosingMenu>
+	<LS_autoHideMenu>true</LS_autoHideMenu>
+	<LS_autoHideMenuShowingTime>2.0</LS_autoHideMenuShowingTime>
+	<LS_openMenuLabel>Apri il menu delle unità elementari</LS_openMenuLabel>
+	<LS_closeMenuLabel>Chiudi il menu delle unità elementari</LS_closeMenuLabel>
+	<LS_unitaMenuLabel>unità</LS_unitaMenuLabel>
+	<LS_propedeuticMode>true</LS_propedeuticMode>
+
+	
+	
+	<LS_menu>
+		<LS_menuItem id="47" label="Pratiche commerciali scorrette: soggetti coinvolti" descr=""  urlToLoad="video_mp4/PCS_2.mp4" automaticGoNext="true" propedeuticTimeLine="true" urlToSubtitleMobile="video_mp4/PCS_2.vtt"  />
+		
+		<LS_menuItem id="48" label="Pratiche commerciali: definizione" descr=""  urlToLoad="video_mp4/PCS_3.mp4" automaticGoNext="true" propedeuticTimeLine="true" urlToSubtitleMobile="video_mp4/PCS_3.vtt"  />
+		
+		<LS_menuItem id="49" label="Pratiche commerciali scorrette: definizione" descr=""  urlToLoad="video_mp4/PCS_4.mp4" automaticGoNext="true" propedeuticTimeLine="true" urlToSubtitleMobile="video_mp4/PCS_4.vtt"  />
+		
+		<LS_menuItem id="50" label="Pratiche ingannevoli" descr=""  urlToLoad="video_mp4/PCS_5.mp4" automaticGoNext="true" propedeuticTimeLine="true" urlToSubtitleMobile="video_mp4/PCS_5.vtt"  />
+		
+		<LS_menuItem id="51" label="Pratiche aggressive" descr=""  urlToLoad="video_mp4/PCS_6.mp4" automaticGoNext="true" propedeuticTimeLine="true" urlToSubtitleMobile="video_mp4/PCS_6.vtt"  />
+		
+	</LS_menu>
+</LS_data> 

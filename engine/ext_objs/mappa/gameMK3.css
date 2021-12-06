@@ -1,0 +1,1382 @@
+@charset "utf-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 non supporta max-width, quindi viene usata per impostazione predefinita la larghezza 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*@font-face {
+    font-family: 'muli';
+    src: url('muli-webfont.eot');
+    src: url('muli-webfont.eot?#iefix') format('embedded-opentype'),
+         url('muli-webfont.woff2') format('woff2'),
+         url('muli-webfont.woff') format('woff'),
+         url('muli-webfont.ttf') format('truetype'),
+         url('muli-webfont.svg#muliregular') format('svg');
+	 src: local('muliregular'), url('muli-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulilight';
+    src: url('muli-light-webfont.woff2') format('woff2'),
+         url('muli-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mulibold';
+    src: url('muli-bold-webfont.woff2') format('woff2'),
+         url('muli-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+@font-face {
+    font-family: 'DM_Sans_bold';
+    src: url('../../fonts/DMSans-Bold.eot');
+    src: url('../../fonts/DMSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/DMSans-Bold.woff2') format('woff2'),
+        url('../../fonts/DMSans-Bold.woff') format('woff'),
+        url('../../fonts/DMSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM_Sans_medium';
+    src: url('../../fonts/DMSans-Medium.eot');
+    src: url('../../fonts/DMSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/DMSans-Medium.woff2') format('woff2'),
+        url('../../fonts/DMSans-Medium.woff') format('woff'),
+        url('../../fonts/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM_Sans_regular';
+    src: url('../../fonts/DMSans-Regular.eot');
+    src: url('../../fonts/DMSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/DMSans-Regular.woff2') format('woff2'),
+        url('../../fonts/DMSans-Regular.woff') format('woff'),
+        url('../../fonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*@font-face {
+    font-family: 'Nexa';
+    src: url('../../../contents/mappa/NexaBold.eot');
+    src: url('../../../contents/mappa/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../../../contents/mappa/NexaBold.woff2') format('woff2'),
+        url('../../../contents/mappa/NexaBold.woff') format('woff'),
+        url('../../../contents/mappa/NexaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}*/
+
+#contentMK3 a{
+	color:#000000;
+}
+
+#contentMK3 a:hover{
+	color:#000000;
+}
+
+#contentMK3 a:visited{
+	color:#000000;
+}
+
+#contentMK3 b{
+	font-weight:bold;
+}
+
+#contentMK3{
+/*.ax_current_object_container{*/
+	
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+	font-size:12px;
+	font-family:'muli', Arial, Helvetica, sans-serif;
+	background-color:#FFF;
+	height:100%;
+	height:390px;
+	background-color:rgba(0,0,0,1.00);
+}
+
+/*#contentMK3{
+	
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:#FFF;
+}*/
+
+#contentMK3 .contentQuizMK3{
+	
+	/*width:98%;*/
+	margin:0 auto;
+	text-align:center;
+	height:100%;
+	display:none;
+	
+	/*max-width:320px;*/
+	
+}
+
+#contentMK3 .contentQuizMK3 {
+
+	padding:0px;
+	overflow:hidden;
+}
+
+#contentMK3 #points_leftArrow_nav {
+  left: 12px;
+  left: 0;
+}
+
+#contentMK3 #points_rightArrow_nav {
+  right: 12px;
+  right: 0;
+}
+
+
+#contentMK3 .points_arrow_nav{
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#contentMK3 .points_arrow_nav img{
+  width: 60px;
+  height: 60px;
+}
+
+#contentMK3 .points_arrow {
+  position: absolute;
+  top:0;
+  right:0;
+  cursor: pointer;
+  opacity: 0.75;
+  /*stroke-width: 8px;*/
+  stroke: grey;
+  fill: transparent;
+  width:28px;
+}
+
+#contentMK3 .points_arrow_nav:focus {
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 8px rgba(0,120,215,0.5);   
+}
+
+#contentMK3 .contentQuizMK3 .contenitorePagine .paginaPunti .sectionPaginaPunti{
+	width:100%;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: center;*/
+	font-weight: 700;
+	position: relative;
+	float: left;
+	/*background-color:#FFF000;*/
+}
+
+#contentMK3 .istruzioniMappa{
+	font-size:1.4em;
+	position:absolute;
+	width:100%;
+	/*height:30px;*/
+	top:5px;
+	z-index:4;
+}
+
+#contentMK3 .messaggioIniziale{
+	position:absolute;
+	/*font-family:'Nexa';*/
+	font-size:1.2em;
+	margin-top:5%;
+	margin-left:5%;
+	width:90%;
+	text-align:left;
+	z-index:10;
+	color:#ffffff;
+}
+
+
+#contentMK3 .boxHelp{
+	position:absolute;
+	/*top:0px;
+	left:0px;*/
+	width:100%;
+	height:100%;
+	background-color:rgba(48, 48, 48, 0.5);
+	display:none;
+	z-index:5;
+}
+
+#contentMK3 .boxHelp hr{
+	margin-top:-0.5em;
+	border-top: 1px solid white;
+	width:90%;
+}
+
+
+#contentMK3 .muoviBoxHelp{
+	position:absolute;
+	top:-200px;
+	left:0px;
+	width:100%;
+}
+
+#contentMK3 .contboxHelp{
+	width:95%;
+	height:95%;
+	background-color: rgba(66, 66, 66, 0.95);
+	margin:0 auto;
+	margin-top:0.2em;
+	/*border-radius:10px;*/
+}
+
+#contentMK3 .titboxHelp svg{margin-top:-9px;}
+#contentMK3 .titboxHelp #etichettaHelp{margin-left:5px;}
+#contentMK3 .titboxHelp #distanziaEtHelp{width:25%;}
+
+#contentMK3 #pulsChiudiBoxMap svg{width:30px; height:30px;}
+
+#contentMK3 .titboxHelp{
+	/*font-family: 'mulibold';*/
+	color:#ffffff;
+	text-align:left;
+	padding:0.2em;
+	font-weight:bold;
+	font-size:2.6em;
+}
+
+#contentMK3 .txtboxHelp{
+	/*font-family: 'muli-light';*/
+	color:#ffffff;
+	padding-bottom:1em;
+	font-size:1.4em;
+	line-height:1.2em;
+	/*height:11em;*/
+	max-height:18em;
+	margin-top:-1.5em;
+	overflow:auto;
+	width:90%;
+	margin:0 auto;
+	text-align:left;
+}
+
+#contentMK3 .chiudiBoxHelp:focus{
+	/*outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 6px rgba(0,120,215,0.5);*/
+}
+
+#contentMK3 .chiudiBoxCard:focus{
+	/*outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 6px rgba(0,120,215,0.5);*/
+}
+
+#contentMK3 .conclusioneMappa{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display:none;
+	z-index:50;
+}
+
+#contentMK3 .conclusioneMappa .contTxtConclusioni{
+	width:95%;
+	/*height:95%;*/
+	background-color: rgba(255, 255, 255, 1);
+	background-color:#CCCCCC;
+	background-color: rgba(66, 66, 66, 0.95);
+	color:#FFFFFF;
+	margin:0 auto;
+	margin-top:0.2em;
+	/*border-radius:10px;*/
+}
+
+#contentMK3 .conclusioneMappa hr.hrConclusione{
+	margin-top:-0.2em;
+	border-top: 1px solid white;
+	width:90%;
+}
+
+#contentMK3 .conclusioneMappa .titConclusioni{
+	/*font-family: 'mulibold';*/
+	color:#ffffff;
+	text-align:center;
+	padding:0.2em;
+	font-weight:bold;
+	font-size:2.6em;
+}
+
+#contentMK3 .conclusioneMappa .txtConclusioni{
+	/*padding:1em;*/
+	max-height:10em;
+	overflow:auto;
+	
+	
+	/*font-family: 'muli-light';*/
+	color:#ffffff;
+	padding-bottom:1em;
+	font-size:1.4em;
+	line-height:1.2em;
+	margin-top:-1.5em;
+	overflow:auto;
+	width:90%;
+	margin:0 auto;
+	text-align:left;
+}
+
+#contentMK3 .conclusioneMappa .contPulsRiavviaMappa{
+	/*position:absolute;
+	bottom:30px;*/
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+	padding:10px;
+	
+}
+
+#contentMK3 .conclusioneMappa .pulsRiavviaMappa{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	background-color:#EDECE4;
+	cursor:pointer;
+}
+
+#contentMK3 .conclusioneMappa .pulsRiavviaMappa:focus {
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 4px rgba(0,120,215,0.5);   
+}
+
+#contentMK3 .conclusioneMappa .pulsRisSuccMappa{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	margin-left:0.2em;
+	background-color:#EDECE4;
+	cursor:pointer;
+}
+
+#contentMK3 .conclusioneMappa .pulsRisSuccMappa:focus {
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 4px rgba(0,120,215,0.5);   
+}
+
+#contentMK3 .contentQuizMK3 .contenitorePagine #contPallini{
+	/*display:none;*/
+	display:inline-block;
+	width:100%;
+}
+
+#contentMK3 .cards_dot{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: relative;
+  background-color: #999;
+  margin: 12px 8px;
+  cursor: pointer;
+
+  float: left;
+}
+
+#contentMK3 .cards_dots {
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  bottom: 16px;
+}
+
+#contentMK3 .contentQuizMK3 .imgSfondoStep{
+	float:left;
+/*	background-color:rgb(0,204,153);*/
+}
+
+#contentMK3 .contentQuizMK3 .imgSfondoStep img{
+	/*height:450px;*/
+}
+
+#contentMK3 .inserisciPunti{
+	background-color:rgba(185,47,49,1.00);
+}
+
+#contentMK3 .contentQuizMK3 .imgSfondoStep .immagineSfondo{
+	/*max-height:350px;*/
+}
+
+
+#contentMK3 .freccetteIndicatore{
+	position:absolute;
+	z-index:50;
+	display:none;
+}
+
+/*#contentMK3 #imgFrecciaS {
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border-top: 25px solid transparent;
+	border-left: 23px solid #FFF;
+	border-bottom: 25px solid transparent;
+}
+
+#contentMK3 #imgFrecciaR {
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border-top: 25px solid transparent;
+	border-right: 23px solid #FFF;
+	border-bottom: 25px solid transparent;
+}
+
+#contentMK3 #imgFrecciaB {
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 23px solid #FFF;
+}
+
+#contentMK3 #imgFrecciaT {
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 23px solid #FFF;
+}*/
+#contentMK3 #imgFrecciaB svg{
+	width: 50px;
+	height: 55px;
+	
+	width: 50px;
+	height: 26px;
+}
+
+#contentMK3 #imgFrecciaT svg{
+	width: 50px;
+	height: 55px;
+	
+	width: 50px;
+	height: 26px;
+}
+
+#contentMK3 #imgFrecciaR svg{
+	/*height:35px;*/
+}
+
+#contentMK3 .freccetteIndicatore img{
+	width:auto;
+	height:10px;
+}
+
+#contentMK3 .pulsanteLente{
+	/*position:relative;
+	z-index:15;*/
+	/*background-color:#fff000;*/
+}
+
+#contentMK3 .pulsanteLente svg{
+	width:50px;
+	height:50px;
+}
+
+#contentMK3 .pulsanteLente:focus {
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 1px rgba(0,120,215,0.5);   
+}
+
+#contentMK3 .pulsChiudiBoxMap svg{
+	width:50px;
+	height:50px;
+}
+
+#contentMK3 .contentQuizMK3 .imgSfondoStep table tr td{
+	/*background-color:rgba(216,192,33,1.00);*/
+}
+
+#contentMK3 .contentQuizMK3 .imgSfondoStep table tr td img{
+}
+
+#contentMK3 .contentQuizMK3 .contenitorePagine .paginaPunti{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	/*margin-left:-1em;*/
+}
+
+#contentMK3 .st0{fill:#31AF91;}
+#contentMK3 .st1{fill:#ffffff;}
+
+#contentMK3 .stCB0{fill:#FFFFFF;}
+#contentMK3 .stCB1{fill:#B00020;}
+
+/*#contentMK3 .objBox{
+	z-index:55;
+}*/
+
+
+/*#contentMK3 .objBox{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:51;
+	display:none;
+	overflow:auto;
+}*/
+
+#contentMK3 .puntoVisto{
+	position: absolute;
+	visibility:hidden;
+	top:-15px;
+	right:-5px;
+	z-index:4;
+	/*margin-right:-0.6em;
+	margin-top:-0.2em;*/
+}
+
+#contentMK3 .puntoVisto svg{
+	width:20px;
+}
+
+#contentMK3 .sfondoBox{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(48, 48, 48, 0.5);
+	display:none;
+	z-index:50;
+}
+
+#contentMK3 .imgPuntoInterattivo{
+	cursor:hand;
+}
+
+#contentMK3 .imgPuntoInterattivo img{
+	cursor:hand;
+}
+
+#contentMK3 .sfondoBox hr{
+	margin-top:-1em;
+}
+
+#contentMK3 .contAudioPdfboxMappa{
+	width:100%;
+	margin-top:0.3em;
+
+}
+
+#contentMK3 .objBox{
+	opacity:0;
+}
+
+#contentMK3 .objBox .imgboxMappa img{
+	/*max-height:156px;
+	width:auto;*/
+}
+
+#contentMK3 .objBox .imgboxMappaF{
+}
+
+#contentMK3 .objBox .imgboxMappaF img{
+	max-height:100px;
+	width:auto;
+}
+
+#contentMK3 .objBox .contboxMappa{
+	display:none;
+	position:absolute;
+	width:95%;
+	/*height:210px;*/
+	background-color: rgba(255, 255, 255, 1);
+	padding:0.5em;
+
+	overflow:auto;
+	
+}
+
+#contentMK3 .objBox .contboxMappaF{
+	width:95%;
+	height:350px;
+	margin-top:0.5em;
+	background-color: rgba(255, 255, 255, 1);
+	/*background-color:#DDDBDB;*/
+	margin:0 auto;	
+}
+
+#contentMK3 .objBox .contboxMappaF .chiudiBoxFull{
+	position:absolute;
+	right:25px;
+	top:10px;
+}
+
+#contentMK3 .objBox .contboxMappaF .chiudiBoxFull:focus {
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 4px rgba(0,120,215,0.5);   
+}
+
+#contentMK3 .pulsChiudiBoxMap:focus {
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 4px rgba(0,120,215,0.5);   
+}
+
+#contentMK3 .objBox .titboxMap{
+	/*font-family: 'Nexa';*/
+	width:93%;
+	color:#000000;
+	color:rgba(212,20,90,1.00);
+	color:#333333;
+	text-align:left;
+	padding:0.2em;
+	font-weight:bold;
+	font-size:1.2em;
+	line-height:0.9em;
+	/*background-color:#fff000;*/
+}
+
+#contentMK3 .objBox .videoboxMappa{
+	/*background-color:rgba(42,162,220,1.00);*/
+}
+
+#contentMK3 .objBox .videoboxMappa video{
+	/*background-color:rgba(42,162,220,1.00);*/
+	width:300px;
+	height:auto;
+}
+
+#contentMK3 .objBox .txtboxMap{
+	/*font-family: 'muli-light';*/
+	font-weight:normal;
+	color:#000000;
+	padding:0.5em;
+	font-size:1.2em;
+	line-height:1.2em;
+	/*height:10em;*/
+	margin-bottom:0.3em;
+	text-align:left;
+	overflow:auto;
+	
+	/*background-color:rgba(233,32,36,1.00);
+	background-color:#fff000;*/
+}
+
+
+#contentMK3 .objBox .contAudioboxMappa{
+	width:45%;
+	width:145px;
+	height:35px;
+	/*float:left;*/
+	display:inline-block;
+	cursor:pointer;
+	/*padding:0.3em;*/
+	margin-right:0.1em;
+}
+
+#contentMK3 .objBox .contAudioboxMappa .audioboxMappa{
+	/*width:28%;*/
+	width:100%;
+	/*float:left;*/
+	text-align:center;
+	
+	color:#FFFFFF;
+	/*font-family:'nexa',arial;*/
+	font-size:1.4em;
+	padding:0.3em;
+	
+	/*background-color:#ff0000;*/
+}
+
+#contentMK3 .objBox .contAudioboxMappa .audioboxMappa img{
+	width:auto;
+	height:20px;
+	color:#FFFFFF;
+}
+
+#contentMK3 .objBox .contAudioboxMappa .txtaudioboxMappa{
+	width:70%;
+	color:#FFFFFF;
+	float:left;
+	text-align:left;
+	/*font-family:'nexa',arial;*/
+	font-size:1.4em;
+	padding:0.3em;
+	
+	/*background-color:#ff000f;*/
+}
+
+#contentMK3 .objBox .contPdfboxMappa{
+	width:49%;
+	width:145px;
+	height:35px;
+	/*float:left;*/
+	display:inline-block;
+	padding:0.3em;
+	margin-right:0.1em;
+	
+	/*background-color:#2AA2DC;*/
+}
+
+#contentMK3 .objBox .contPdfboxMappa .pdfboxMappa{
+	width:100%;
+	/*float:left;*/
+	text-align:center;
+	
+	/*font-family:'nexa',arial;*/
+	font-size:1.1em;
+	/*padding:0.3em;*/
+	color:#FFFFFF;
+	
+	
+	/*background-color:#ff0000;*/
+}
+
+#contentMK3 .objBox .contPdfboxMappa .pdfboxMappa a{
+	text-align:left;
+	color::#000000;
+	/*font-family:'nexa',arial;*/
+	/*padding:0.3em;*/
+}
+
+#contentMK3 .objBox .contPdfboxMappa .pdfboxMappa img{
+	width:auto;
+	height:20px;
+	color:#FFFFFF;
+}
+
+#contentMK3 .objBox .contPdfboxMappa .txtpdfboxMappa{
+	width:70%;
+	float:left;
+	text-align:left;
+	/*font-family:'nexa',arial;*/
+	font-size:1.4em;
+	padding:0.3em;
+	color:#FFFFFF;
+	
+	/*background-color:#ff00ff;*/
+}
+
+#contentMK3 .objBox .contPdfboxMappa .txtpdfboxMappa a{
+	text-align:left;
+	color::#000000;
+	/*font-family:'nexa',arial;*/
+	padding:0.3em;
+}
+
+#contentMK3 .contentQuizMK3 div{
+	
+	text-align:center;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	line-height:9px;
+}
+
+#contentMK3 .contentQuizMK3 .contenitorePagine{
+	position:absolute;
+	top::0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	/*background-color:rgba(42,162,220,1.00);*/
+}
+
+#contentMK3 .contentQuizMK3 .contenitorePagine #pulsantieraSmartphone{
+	width:100%;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	z-index:1;
+}
+
+#contentMK3 .pulsSx img{
+	width:90%;
+	height:90%;
+	cursor:pointer;
+}
+
+#contentMK3 .pulsDx img{
+	width:90%;
+	height:90%;
+	cursor:pointer;
+}
+
+#contentMK3 .pallino{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background-color:#CCCCCC;
+	border-radius:10px;
+	margin-right:5px;
+}
+
+#contentMK3 .arancio{
+	background-color:rgba(255,150,0,1.00);
+}
+
+#contentMK3 .grigio{
+	background-color:rgba(77,77,77,1.00);
+}
+
+#contentMK3 .fuxia{
+	background-color:rgba(212,20,90,1.00);
+}
+
+#contentMK3 .contPallini{
+}
+
+
+
+/* Layout tablet: da 481 px a 768 px. Eredita stili da: Layout mobile. */
+
+@media only screen and (min-width: 481px) {
+
+
+#contentMK3 .contentQuizMK3 .areaDropDomanda
+{
+	float:left;
+	width:100%;
+	height:133px;
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom:0.5em;
+}
+
+#contentMK3 .contenitoreDragSmart{
+	float:left;
+	width:100%;
+	height:260px;
+	/*background-color:rgba(146,175,71,1.00);*/
+}
+
+#contentMK3 .areaDragSmart{
+	height:140px;
+	/*background-color:rgba(251,2,6,1.00);*/
+}
+
+
+
+
+
+}
+@media only screen and (min-width: 480px) and (orientation:landscape){}
+
+@media only screen and (min-width: 481px) and (orientation:landscape){}
+
+@media only screen and (min-width: 768px){
+#contentMK3{
+	height:590px;
+}
+}
+
+
+/* Layout desktop: da 769 px a 1232 px max.  Eredita stili da: Layout mobile e Layout tablet. */
+
+@media only screen and (min-width: 769px) {
+/*#contentMK3{
+	height:590px;
+}*/
+
+#content{}
+
+#contentMK3 .contentQuizMK3{
+	max-width:550px;
+	max-width:758px;
+		
+}
+
+#contentMK3 .istruzioniMappa{
+	/*top:50px;*/
+	/*font-size:2.5em;*/
+
+	/*padding-top:10px;*/
+	padding-bottom:10px;
+}
+	
+	
+#contentMK3 #imgFrecciaB svg{
+	width: 50px;
+	height: 55px;
+}
+
+#contentMK3 #imgFrecciaT svg{
+	width: 50px;
+	height: 55px;
+}
+
+#contentMK3 .contentQuizMK3 div{
+	
+	line-height:12px;
+		
+}
+
+#contentMK3 .puntoVisto{
+	top:-5px;
+	right:-5px;
+}
+
+#contentMK3 .puntoVisto svg{
+	width:30px;
+}
+
+#contentMK3 .contentQuizMK3 .contenitorePagine #contPallini{
+	/*position:absolute;
+	bottom:0px;
+	left:0px;
+	z-index:50;*/	
+}
+
+#contentMK3 .contentQuizMK3 .imgSfondoStep .immagineSfondo{
+	max-height:590px;
+}
+
+
+/*#contentMK3 .contentQuizMK3 .contenitorePagine .paginaMappa .Mappa{
+	width:140px;
+	height:200px;
+	margin-left:2em;
+	margin-top:0.5em;
+}*/
+
+#contentMK3 .classeBoxLarga{
+	width:700px;
+	height:300px;
+}
+
+#contentMK3 .classeBoxStretta{
+	width:350px;
+	height:300px;
+}
+
+#contentMK3 .objBox .contboxMappaH{
+	/*width:700px;*/
+	/*height:250px;*/
+	left:40px;
+	overflow:hidden;
+}
+
+#contentMK3 .objBox .contboxMappaV{
+	width:330px;
+	/*height:410px;*/
+	top:20px;
+	overflow:hidden;
+}
+
+#contentMK3 .objBox .contboxMappaF{
+	/*width:90%;
+	height:90%;*/
+	/*left:40px;*/
+	overflow:hidden;
+	margin-top:1em;
+	/*margin: 0 auto;*/
+}
+
+#contentMK3 .objBox .titboxMap{
+	padding:0.2em;
+	font-size:1.4em;
+	line-height:0.9em;
+	margin-top:-10px;
+	/*background-color:#fff000;*/
+}
+
+#contentMK3 .objBox .titboxMap table tr td{
+	height:40px;
+	/*background-color:#fff000;*/
+}
+
+#contentMK3 .objBox .videoboxMappa video{
+	/*background-color:rgba(42,162,220,1.00);*/
+	width:270px;
+	height:auto;
+}
+
+
+#contentMK3 .pallino{
+	width:12px;
+	height:12px;
+	border-radius:12px;
+	margin-right:5px;
+	margin-top:2em;
+}
+
+#contentMK3 .titboxHelp #distanziaEtHelp{width:41%;}
+/*#contentMK2 #cellaIconaHelp{width:50px;}*/
+#contentMK3 #cellaIconaHelp svg{width:50px; height:50px;}
+
+#contentMK3 .chiudiBoxCard svg{width:30px; height:30px;}
+
+#contentMK3 #svgChiudiHelp{width:30px; height:30px;}
+
+#contentMK3 .titboxHelp{
+	font-size:48px;
+}
+
+#contentMK3 .txtboxHelp{
+	font-size:24px;
+	line-height:24px;
+}
+
+#contentMK2 .chiudiBoxHelp{
+	margin-top:-1em;
+}
+
+#contentMK2 .chiudiBoxHelp svg{
+	width:35px;
+	height:35px;
+}
+
+#contentMK3 #divInserisciPulsSx{
+	width:8%;
+	text-align:center;
+	position:absolute;
+	top:0px;
+	left:0px;
+	
+	height:100%;
+	
+	/*background:#fff000;*/
+}
+
+#contentMK3 #divInserisciPulsDx{
+	width:8%;
+	text-align:center;
+	position:absolute;
+	top:0px;
+	right:0px;
+	
+	height:100%;
+	
+	/*background:#fff000;*/
+}
+
+#contentMK3 .pulsSx{
+	float:none;
+}
+
+
+#contentMK3 .freccetteIndicatore img{
+	width:auto;
+	height:auto;
+}
+
+#contentMK3 .objBox .txtboxMap{
+	float:left;
+	/*width:50%;
+	height:400px;*/
+	margin-bottom:2em;
+	overflow-y:auto;
+}
+
+#contentMK3 .contAudioPdfboxMappa{
+	margin-top:0em;
+	width:100%;
+	float:left;
+}
+
+#contentMK3 .objBox .imgboxMappa img{
+	/*max-height:170px;
+	width:auto;*/
+}
+
+#contentMK3 .objBox .imgboxMappaF{
+	margin-left:15px;
+	margin-right:15px;
+	float:left;
+}
+
+#contentMK3 .objBox .imgboxMappaF img{
+	max-height:356px;
+	width:auto;
+}
+
+
+#contentMK3 .objBox .contAudioboxMappa{
+	width:150px;
+}
+
+#contentMK3 .objBox .contAudioboxMappa .audioboxMappa{
+}
+
+#contentMK3 .objBox .contAudioboxMappa .txtaudioboxMappa{
+	font-size:1.6em;
+}
+
+#contentMK3 .objBox .contPdfboxMappa{
+	width:150px;
+}
+
+#contentMK3 .objBox .contPdfboxMappa .pdfboxMappa{
+}
+
+#contentMK3 .objBox .contPdfboxMappa .pdfboxMappa img{
+	/*width:auto;
+	height:25px;*/
+}
+
+#contentMK3 .objBox .contPdfboxMappa .txtpdfboxMappa{
+	font-size:1.6em;
+}
+
+#contentMK3 .objBox .contPdfboxMappa .txtpdfboxMappa a{
+}
+
+#contentMK3 .conclusione .contTxtConclusioni{
+	margin-top:55px;
+}
+
+#contentMK3 .conclusioneMappa .txtConclusioni{
+	/*padding:1em;*/
+	font-size:1.4em;
+	line-height:1.2em;
+	max-height:18em;
+	overflow:auto;
+}
+
+
+}
+
+/*@media only screen and (min-width: 768px) and (orientation:portrait) {
+#contentMK3{
+	height:450px;
+}
+
+#content{}
+
+.contentQuizMK3{
+	max-width:550px;
+	max-width:768px;		
+}
+
+.contentQuizMK3 div{	
+	line-height:12px;		
+}
+
+#contentMK3 .contentQuizMK3 .contenitorePagine #contPallini{
+}
+
+#contentMK3 .istruzioniMappa{
+	top:50px;
+	font-size:2.5em;
+	
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+
+#contentMK3 .contentQuizMK3 .imgSfondoStep .immagineSfondo{
+	max-height:590px;
+}
+
+#contentMK3 .classeBoxLarga{
+	width:700px;
+	height:300px;
+}
+
+#contentMK3 .classeBoxStretta{
+	width:350px;
+	height:300px;
+}
+
+#contentMK3 .objBox .contboxMappaH{
+	width:680px;
+	left:40px;
+	overflow:hidden;
+}
+
+#contentMK3 .objBox .contboxMappaV{
+	width:310px;
+	height:410px;
+	top:20px;
+	overflow:hidden;
+}
+
+#contentMK3 .objBox .contboxMappaF{
+	overflow:hidden;
+	margin-top:1em;
+}
+
+#contentMK3 .objBox .titboxMap{
+	padding:0.2em;
+	font-size:1.4em;
+	line-height:0.9em;
+	margin-top:-10px;
+}
+
+#contentMK3 .objBox .titboxMap table tr td{
+	height:40px;
+}
+
+#contentMK3 .objBox .videoboxMappa video{
+	width:270px;
+	height:auto;
+}
+
+
+#contentMK3 .pallino{
+	width:12px;
+	height:12px;
+	border-radius:12px;
+	margin-right:5px;
+	margin-top:2em;
+}
+
+#contentMK3 .titboxHelp #distanziaEtHelp{width:41%;}
+#contentMK3 #cellaIconaHelp svg{width:50px; height:50px;}
+
+#contentMK3 .chiudiBoxCard svg{width:30px; height:30px;}
+
+#contentMK3 #svgChiudiHelp{width:30px; height:30px;}
+
+#contentMK3 .titboxHelp{
+	font-size:48px;
+}
+
+#contentMK3 .txtboxHelp{
+	font-size:24px;
+	line-height:24px;
+}
+
+#contentMK2 .chiudiBoxHelp{
+	margin-top:-1em;
+}
+
+#contentMK2 .chiudiBoxHelp svg{
+	width:35px;
+	height:35px;
+}
+
+#contentMK3 #divInserisciPulsSx{
+	width:8%;
+	text-align:center;
+	position:absolute;
+	top:0px;
+	left:0px;
+	
+	height:100%;
+}
+
+#contentMK3 #divInserisciPulsDx{
+	width:8%;
+	text-align:center;
+	position:absolute;
+	top:0px;
+	right:0px;
+	
+	height:100%;
+}
+
+#contentMK3 .pulsSx{
+	float:none;
+}
+
+#contentMK3 .freccetteIndicatore img{
+	width:auto;
+	height:auto;
+}
+
+#contentMK3 .objBox .txtboxMap{
+	overflow-y:auto;
+}
+
+#contentMK3 .contAudioPdfboxMappa{
+	margin-top:0em;
+	width:100%;
+	float:left;
+}
+
+#contentMK3 .objBox .imgboxMappa img{
+}
+
+#contentMK3 .objBox .imgboxMappaF{
+	margin-left:15px;
+	margin-right:15px;
+	float:left;
+}
+
+#contentMK3 .objBox .imgboxMappaF img{
+	max-height:356px;
+	width:auto;
+}
+
+#contentMK3 .objBox .contAudioboxMappa{
+	width:150px;
+}
+
+#contentMK3 .objBox .contAudioboxMappa .audioboxMappa{
+}
+
+#contentMK3 .objBox .contAudioboxMappa .txtaudioboxMappa{
+	font-size:1.6em;
+}
+
+#contentMK3 .objBox .contPdfboxMappa{
+	width:150px;
+}
+
+#contentMK3 .objBox .contPdfboxMappa .pdfboxMappa{
+}
+
+#contentMK3 .objBox .contPdfboxMappa .pdfboxMappa img{
+	
+}
+
+#contentMK3 .objBox .contPdfboxMappa .txtpdfboxMappa{
+	font-size:1.6em;
+}
+
+#contentMK3 .objBox .contPdfboxMappa .txtpdfboxMappa a{
+}
+
+#contentMK3 .conclusioneMappa .txtConclusioni{
+	padding:1em;
+	font-size:1.4em;
+	line-height:1.2em;
+	max-height:18em;
+	overflow:auto;
+}
+
+
+
+
+}*/

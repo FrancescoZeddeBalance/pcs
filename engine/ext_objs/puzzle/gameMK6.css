@@ -1,0 +1,911 @@
+@charset "utf-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 non supporta max-width, quindi viene usata per impostazione predefinita la larghezza 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*@font-face {
+    font-family: 'muli';
+    src: url('../_font/muli-webfont.eot');
+    src: url('../_font/muli-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_font/muli-webfont.woff2') format('woff2'),
+         url('../_font/muli-webfont.woff') format('woff'),
+         url('../_font/muli-webfont.ttf') format('truetype'),
+         url('../_font/muli-webfont.svg#muliregular') format('svg');
+	 src: local('muliregular'), url('../_font/muli-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../_font/NexaBold.eot');
+    src: url('../_font/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../_font/NexaBold.woff2') format('woff2'),
+        url('../_font/NexaBold.woff') format('woff'),
+        url('../_font/NexaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'DM_Sans_bold';
+    src: url('../../fonts/DMSans-Bold.eot');
+    src: url('../../fonts/DMSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/DMSans-Bold.woff2') format('woff2'),
+        url('../../fonts/DMSans-Bold.woff') format('woff'),
+        url('../../fonts/DMSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM_Sans_medium';
+    src: url('../../fonts/DMSans-Medium.eot');
+    src: url('../../fonts/DMSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/DMSans-Medium.woff2') format('woff2'),
+        url('../../fonts/DMSans-Medium.woff') format('woff'),
+        url('../../fonts/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM_Sans_regular';
+    src: url('../../fonts/DMSans-Regular.eot');
+    src: url('../../fonts/DMSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/DMSans-Regular.woff2') format('woff2'),
+        url('../../fonts/DMSans-Regular.woff') format('woff'),
+        url('../../fonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+#contentMK6{
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+	font-size:12px;
+	font-family:'muli', Arial, Helvetica, sans-serif;
+	background-color:#000;
+	background-color:#EDECE4;
+	
+	
+	/*position:absolute;	*/
+	width:100%;
+	height:100%;
+	height:420px;
+	/*height:520px;*/
+}
+
+#contentMK6 .ruotaTelefono{
+	display:block;
+	display:none;
+	position:absolute;	
+	width:100%;
+	height:100%;
+	z-index:51;
+	background-color:rgba(64,64,64,1.00);
+	color:rgba(255,255,255,1.00);
+	font-size:1.6em;
+}
+
+#contentMK6 .ruotaTelefono .txtRuota{
+	color:rgba(255,255,255,1.00);
+	text-align:center;
+	padding:2em;
+}
+
+#contentMK6 .ruotaTelefono .imgRuota{
+	width:100%;
+	text-align:center;
+}
+
+#contentMK6 .ruotaTelefono .imgRuota img{
+	width:120px;
+	height:auto;
+}
+
+#contentMK6 .contentQuizMK6{
+	
+	/*width:98%;*/
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+	height:100%;
+	/*display:none;*/
+	
+	padding:0px;
+	overflow:hidden;
+	
+	/*max-width:320px;*/
+	
+}
+
+#contentMK6 .boxHelp{
+	position:absolute;
+	/*top:0px;
+	left:0px;*/
+	width:100%;
+	height:100%;
+	background-color:rgba(48, 48, 48, 0.5);
+	display:none;
+	z-index:5;
+}
+
+#contentMK6 .boxHelp hr{
+	margin-top:-0.5em;
+	border-top: 1px solid white;
+	width:90%;
+}
+
+#contentMK6 .contboxHelp{
+	width:95%;
+	height:95%;
+	background-color: rgba(66, 66, 66, 0.95);
+	margin:0 auto;
+	margin-top:0.2em;
+	/*border-radius:10px;*/
+}
+
+#contentMK6 .titboxHelp svg{margin-top:-9px;}
+#contentMK6 .titboxS svg{width:25px; height:25px;}
+#contentMK6 .titboxHelp #etichettaHelp{margin-left:5px;}
+#contentMK6 .titboxHelp #distanziaEtHelp{}
+#contentMK6 .titboxHelp{
+	/*font-family: 'mulibold';*/
+	color:#ffffff;
+	text-align:left;
+	padding:0.2em;
+	font-weight:bold;
+	font-size:2.6em;
+}
+
+#contentMK6 .txtboxHelp{
+	/*font-family: 'mulilight';*/
+	color:#ffffff;
+	padding-bottom:1em;
+	font-size:1.4em;
+	line-height:1.2em;
+	/*height:11em;*/
+	max-height:18em;
+	margin-top:-1.5em;
+	overflow:auto;
+	width:90%;
+	margin:0 auto;
+	text-align:left;
+}
+
+#contentMK6 .boxS{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(48, 48, 48, 0.5);
+	display:none;
+	z-index:50;
+}
+
+#contentMK6 .boxS hr{
+	margin-top:-1em;
+}
+
+#contentMK6 .contboxS{
+	width:95%;
+	height:95%;
+	background-color: rgba(48, 48, 48, 0.95);
+	margin:0 auto;
+	margin-top:0.2em;
+	border-radius:10px;
+	padding:0.5em;
+	text-align:center;
+}
+
+#contentMK6 .titboxS{
+	font-family: 'Nexa';
+	color:#ffffff;
+	text-align:left;
+	padding:0.5em;
+	font-weight:bold;
+	font-size:2.6em;
+}
+
+#contentMK6 .pulsanteSolRifl{
+	visibility:hidden;
+	position:absolute;
+	left:0px;
+	bottom:7px;
+	width:100%;
+	height:30px;
+	z-index:40;
+	/*background-color:rgba(42,162,220,1.00);*/
+}
+
+#contentMK6 .pulsSol{
+	display:inline-block;
+	cursor:pointer;
+	color:rgba(255,255,255,1.00);
+	background-color:#999999;
+	padding:0.6em;
+}
+
+#contentMK6 .txtboxS{
+	color:#ffffff;
+	padding:0.5em;
+	font-size:1.4em;
+	line-height:1.2em;
+	/*height:11em;*/
+	max-height:18em;
+	margin-top:-0.5em;
+	text-align:center;
+	overflow:auto;
+}
+
+#contentMK6 .txtboxS img{
+	height:200px;
+	width:auto;
+}
+
+#contentMK6 .pulsApriS{
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:30px;
+	height:auto;
+	cursor:pointer;
+	z-index:4;
+}
+
+#contentMK6 .conclusione{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display:none;
+	z-index:50;
+}
+
+#contentMK6 .contTxtConclusioniPZ{
+	width:95%;
+	/*height:95%;*/
+	background-color: rgba(255, 255, 255, 1);
+	background-color:#CCCCCC;
+	background-color: rgba(66, 66, 66, 0.95);
+	color:#FFFFFF;
+	margin:0 auto;
+	margin-top:0.2em;
+	/*border-radius:10px;*/
+}
+
+#contentMK6 .contTxtConclusioniPZ hr{
+	margin-top:-0.5em;
+	border-top: 1px solid white;
+	width:90%;
+}
+
+#contentMK6 .titConclusioniPZ{
+	/*font-family: 'mulibold';*/
+	color:#ffffff;
+	text-align:center;
+	padding:0.2em;
+	font-weight:bold;
+	font-size:2.6em;
+}
+
+#contentMK6 .txtConclusioniPZ{
+	/*padding:1em;*/
+	max-height:10em;
+	overflow:auto;
+	
+	
+	/*font-family: 'mulilight';*/
+	color:#ffffff;
+	padding-bottom:1em;
+	font-size:1.4em;
+	line-height:1.2em;
+	margin-top:-1.5em;
+	overflow:auto;
+	width:90%;
+	margin:0 auto;
+	text-align:left;
+}
+
+#contentMK6 .conclusione .contPulsRiavviaPZ{
+	/*position:absolute;
+	bottom:30px;*/
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+	padding:10px;
+}
+
+#contentMK6 .conclusione .pulsRiavviaPZ{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	background-color:#CCCCCC;
+	cursor:pointer;
+}
+
+#contentMK6 .conclusione .pulsRiavviaPZ:focus{
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 4px rgba(0,120,215,0.5);
+}
+
+#contentMK6 .conclusione .pulsRisSuccPZ{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	margin-left:0.2em;
+	background-color:#EDECE4;
+	cursor:pointer;
+}
+
+#contentMK6 .conclusione .pulsRisSuccPZ:focus {
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 4px rgba(0,120,215,0.5);   
+}
+
+/*#contentMK6 .accendiBordi{
+	border-top: solid 2px rgba(212,20,90,1.00);
+	border-bottom: solid 2px rgba(212,20,90,1.00);
+	border-right: solid 2px rgba(212,20,90,1.00);
+	border-left: solid 2px rgba(212,20,90,1.00);
+}*/
+
+#contentMK6 .contentQuizMK6 div{
+	
+	text-align:center;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	line-height:9px;
+}
+
+#contentMK6 .contentQuizMK6 .areaDropDomanda
+{
+	display:none;
+	float:left;
+	width:100%;
+	height:200px;
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom:0.5em;
+}
+
+#contentMK6 .contentQuizMK6 .txtContenutoDrag{
+	width:98%;
+	padding:0.3em;
+	font-size:1em;
+	line-height:1em;
+	margin: 0 auto;
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreDragSmart{
+	display:none;
+	float:left;
+	width:100%;
+	background-color:rgba(146,175,71,1.00);
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreDragTab{
+	display:none;
+	/*float:left;*/
+	width:100%;
+}
+
+#contentMK6 .contentQuizMK6 .areaDragSmart{
+	position:relative;
+	/*height:130px;*/
+	width:100%;
+	height:100%;
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni{
+	position:absolute;
+	width:480px;
+	width:300px;
+	height:310px;
+	height:215px;
+	margin:0 auto;
+	/*margin-left:53px;*/
+	/*background-color:rgba(34,213,205,1.00);*/
+}
+
+#contentMK6 .contentQuizMK6 .draggable
+{
+	/*float:left;*/
+	/*display:inline-block;*/
+	position:absolute;
+	font-size:0.9em;
+	width:96px;
+	height:98px;
+	
+	width:60px;
+	height:61px;
+	/*margin:0 auto;*/
+	/*border-radius:5px;*/
+	/*background-color:#B3B3B3;*/
+	z-index:3;
+	cursor:move;
+}
+
+#contentMK6 .contentQuizMK6 .draggable:focus
+{
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 6px rgba(0,120,215,0.5);
+}
+
+#contentMK6 .livello4{
+	z-index:4;
+}
+
+#contentMK6 .arancio{
+	background-color:rgba(255,150,0,1.00);
+}
+
+#contentMK6 .grigio{
+	background-color:rgba(77,77,77,1.00);
+}
+
+#contentMK6 .fuxia{
+	background-color:rgba(212,20,90,1.00);
+}
+
+#contentMK6 .riduci{
+	
+	-webkit-transform: scale(0.40);
+	-moz-transform: scale(0.40);
+	-o-transform: scale(0.40);
+	transform: scale(0.40);
+	
+}
+
+
+/* Layout tablet: da 481 px a 768 px. Eredita stili da: Layout mobile. */
+
+@media only screen and (min-width: 481px) {
+
+/*#contentMK6 .ruotaTelefono{
+	display:block;
+}
+
+#contentMK6 .contentQuizMK6 .draggable
+{
+	width:96px;
+	height:98px;
+}*/
+
+
+}
+
+@media only screen and (min-height: 639px) and (orientation:portrait) {
+	#contentMK5{height:470px;}
+}
+
+@media only screen and (min-height: 700px) and (orientation:portrait) {
+#contentMK5{height:550px;}
+}
+
+@media only screen and (min-width: 480px) and (orientation:landscape){
+#contentMK6{height:280px;}
+#contentMK6 .ruotaTelefono{/*display:none;*/}
+#contentMK6 .contentQuizMK6{display:block;}
+}
+
+@media only screen and (min-width: 360px) and (orientation:portrait){
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni{
+	width:335px;
+	height:204px;
+}
+
+#contentMK6 .contentQuizMK6 .draggable{
+	width:67px;
+	height:68px;
+}
+
+}
+
+@media only screen and (min-width: 375px) and (orientation:portrait){
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni{
+	width:360px;
+	height:219px;
+}
+
+#contentMK6 .contentQuizMK6 .draggable{
+	width:72px;
+	height:73px;
+}
+
+}
+
+@media only screen and (min-width: 500px) and (orientation:portrait){
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni{
+	width:500px;
+	height:303px;
+}
+
+#contentMK6 .contentQuizMK6 .draggable{
+	width:100px;
+	height:101px;
+}
+}
+
+@media only screen and (min-width: 667px) and (orientation:landscape){
+#contentMK6{height:310px;}
+#contentMK6 .contentQuizMK6{
+	/*background-color:#ff0000;*/
+}
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni{
+	width:400px;
+	height:243px;
+}
+
+#contentMK6 .contentQuizMK6 .draggable
+{
+	width:80px;
+	height:81px;
+}
+
+}
+
+@media only screen and (min-width: 800px) and (orientation:landscape){
+#contentMK6{height:340px;}
+}
+
+@media only screen and (width: 736px) and (orientation:landscape){
+
+#contentMK6 .ruotaTelefono{
+	/*display:none;*/
+}
+
+#contentMK6 .contentQuizMK6{
+	display:block;
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni{
+	/*margin-left:125px;*/
+}
+	
+}
+
+
+
+/* Layout desktop: da 769 px a 1232 px max.  Eredita stili da: Layout mobile e Layout tablet. */
+
+@media only screen and (min-width: 900px) and (orientation:landscape) {
+#contentMK6{
+	height:100%;
+}
+
+#contentMK6 .contentQuizMK6{
+	/*max-width:800px;*/
+}
+
+#contentMK6 .contentQuizMK6 div{
+	
+	line-height:16px;
+		
+}
+
+#contentMK6 .ruotaTelefono{
+	/*display:none;*/
+}
+
+#contentMK6 .contentQuizMK6{
+	display:block;
+}
+
+#contentMK6 .txtboxHelp{
+	/*height:18em;*/
+}
+
+#contentMK6 .pulsSol{
+	font-size:1.2em;
+}
+
+#contentMK6 .titboxHelp #distanziaEtHelp{width:41%;}
+/*#contentMK2 #cellaIconaHelp{width:50px;}*/
+#contentMK6 #cellaIconaHelp svg{width:50px; height:50px;}
+
+#contentMK6 .chiudiBoxCard svg{width:30px; height:30px;}
+
+#contentMK6 #svgChiudiHelp{width:30px; height:30px;}
+
+#contentMK6 .titboxHelp{
+	font-size:48px;
+}
+
+#contentMK6 .txtboxHelp{
+	font-size:24px;
+	line-height:24px;
+}
+
+#contentMK6 .chiudiBoxHelp{
+	margin-top:-1em;
+}
+
+#contentMK6 .chiudiBoxHelp svg{
+	width:35px;
+	height:35px;
+}
+
+#contentMK6 .txtboxS{
+	max-height:25em;
+	overflow:hidden;
+}
+
+#contentMK6 .txtboxS img{
+	height:450px;
+	width:auto;
+}
+
+/*.contentQuizMK6 .contenitoreDragTab{*/
+/*	float:left;*/
+	/*width:100%;
+	height:190px;
+	height:100%;*/
+	/*background-color:#A32C2E;*/
+/*}*/
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni{
+	position:absolute;
+	width:800px;
+	height:492px;
+	margin:0 auto;
+	/*background-color:rgba(255,255,255,1.00);*/
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni .contenitoreDragTab{
+	width:800px;
+	height:492px;
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni table tr td{
+	width:800px;
+	height:492px;
+}
+
+#contentMK6 .contentQuizMK6 .dragTab{
+	/*display:inline-block;*/
+}
+
+#contentMK6 .contentQuizMK6 .draggable
+{
+	width:160px;
+	height:164px;
+}
+
+#contentMK6 .contentQuizMK6 .draggable table tr td
+{
+	width:160px;
+	height:164px;
+}
+
+#contentMK6 .contentQuizMK6 .draggable table tr td img
+{
+	width:160px;
+	height:164px;
+}
+
+#contentMK6 .conclusione{
+	height:100%;
+}
+
+#contentMK6 .conclusione .contTxtConclusioniPZ{
+	margin-top:55px;
+}
+
+#contentMK6 .conclusione .txtConclusioniPZ{
+	/*padding:1em;*/
+	font-size:1.4em;
+	line-height:1.2em;
+	max-height:18em;
+	overflow:auto;
+}
+
+#contentMK6 .conclusione .contPulsRiavviaPZ{
+	/*position:absolute;
+	bottom:30px;*/
+	width:100%;
+	text-align:center;
+	
+}
+
+#contentMK6 .conclusione .pulsRiavviaPZ{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	/*background-color:#FFFFFF;*/
+	cursor:pointer;
+}
+
+
+#contentMK6 .riduci{
+	
+	-webkit-transform: scale(0.50);
+	-moz-transform: scale(0.50);
+	-o-transform: scale(0.50);
+	transform: scale(0.50);
+	
+}
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (orientation:portrait) {
+#contentMK6{
+	height:600px;
+}
+
+#contentMK6 .contentQuizMK6{
+	max-width:550px;
+	max-width:701px;
+}
+
+#contentMK6 .contentQuizMK6 div{
+	
+	line-height:16px;
+		
+}
+
+#contentMK6 .ruotaTelefono{
+	/*display:none;*/
+}
+
+#contentMK6 .contentQuizMK6{
+	display:block;
+}
+
+#contentMK6 .titboxHelp #distanziaEtHelp{width:38%;}
+#contentMK6 #cellaIconaHelp{width:50px;}
+
+#contentMK6 .titboxHelp{
+	font-size:48px;
+}
+
+#contentMK6 .txtboxHelp{
+	font-size:24px;
+	line-height:24px;
+}
+
+#contentMK6 .chiudiBoxHelp{
+	margin-top:-1em;
+}
+
+#contentMK6 .chiudiBoxHelp svg{
+	width:35px;
+	height:35px;
+}
+
+#contentMK6 .txtboxHelp{
+	/*height:18em;*/
+}
+
+#contentMK6 .txtboxS{
+	max-height:25em;
+	overflow:hidden;
+}
+
+#contentMK6 .txtboxS img{
+	height:450px;
+	width:auto;
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreDragTab{
+/*	float:left;*/
+	width:100%;
+	height:190px;
+	height:100%;
+	/*background-color:#A32C2E;*/
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni{
+	position:absolute;
+	width:720px;
+	height:500px;
+	margin:0 auto;
+	/*background-color:rgba(255,255,255,1.00);*/
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni .contenitoreDragTab{
+	width:700px;
+	height:520px;
+}
+
+#contentMK6 .contentQuizMK6 .contenitoreOpzioni table tr td{
+	width:700px;
+	height:520px;
+}
+
+#contentMK6 .contentQuizMK6 .dragTab{
+	/*display:inline-block;*/
+}
+
+#contentMK6 .contentQuizMK6 .draggable
+{
+	width:140px;
+	height:144px;
+}
+
+#contentMK6 .contentQuizMK6 .draggable table tr td
+{
+	width:140px;
+	height:144px;
+}
+
+#contentMK6 .contentQuizMK6 .draggable table tr td img
+{
+	width:140px;
+	height:144px;
+}
+
+#contentMK6 .conclusione{
+	height:100%;
+}
+
+#contentMK6 .conclusione .txtConclusioniPZ{
+	/*padding:1em;*/
+	font-size:1.4em;
+	line-height:1.2em;
+	max-height:18em;
+	overflow:auto;
+}
+
+#contentMK6 .conclusione .contTxtConclusioniPZ{
+	margin-top:55px;
+}
+
+#contentMK6 .conclusione .contPulsRiavviaPZ{
+	/*position:absolute;
+	bottom:30px;*/
+	width:100%;
+	text-align:center;
+	
+}
+
+#contentMK6 .conclusione .pulsRiavviaPZ{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	/*background-color:#FFFFFF;*/
+	cursor:pointer;
+}
+
+#contentMK6 .riduci{
+	
+	-webkit-transform: scale(0.50);
+	-moz-transform: scale(0.50);
+	-o-transform: scale(0.50);
+	transform: scale(0.50);
+	
+}
+
+
+}

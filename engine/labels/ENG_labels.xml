@@ -1,0 +1,51 @@
+<labels>
+	<yesAnswer>Yes</yesAnswer>
+	<noAnswer>No</noAnswer>
+	<nav_forward>Next</nav_forward>
+	<nav_backward>Previous</nav_backward>
+	<nav_up>Up</nav_up>
+	<nav_down>Down</nav_down>
+	<nav_open>Open</nav_open>
+	<nav_close>Close</nav_close>
+	<nav_accept>Accept</nav_accept>
+	<nav_restart>Restart</nav_restart>
+	<nav_exit>Exit</nav_exit>
+	<nav_extra_button_label>Extra Content</nav_extra_button_label>
+	<nav_zoom_in>Zoom in</nav_zoom_in>
+	<nav_zoom_out>Zoom out</nav_zoom_out>
+	<nav_search>search</nav_search>
+	<nav_cancel_search>annulla search</nav_cancel_search>
+	<help_guide_label>Help Guide</help_guide_label>
+	<resumeLastViewQuestion>Resume from last view item?</resumeLastViewQuestion>
+	<propedeutic_not_available>Object not yet available</propedeutic_not_available>
+	<propedeutic_complete_formers>Complete former objects to access this resource</propedeutic_complete_formers>	
+	<aria_menu_tracking_table>Track Status</aria_menu_tracking_table>
+	<tracking_object_optional>optional</tracking_object_optional>
+	<tracking_object_mandatory>mandatory</tracking_object_mandatory>
+	<tracking_object_name>OBJECT</tracking_object_name>
+	<tracking_object_status>STATUS</tracking_object_status>
+	<tracking_object_status_unseen>unseen</tracking_object_status_unseen>
+	<tracking_object_status_incomplete>incomplete</tracking_object_status_incomplete>
+	<tracking_object_status_completed>completed</tracking_object_status_completed>	
+	<aria_menu_current_selected_item>selected</aria_menu_current_selected_item>	
+	<aria_pill_title>Training Pill title:</aria_pill_title>	
+	<aria_object_title>Object title:</aria_object_title>	
+	<aria_completion_progress>Progress</aria_completion_progress>	
+	<aria_cover_launch_object>Start object:</aria_cover_launch_object>	
+	<aria_menu_toggle_nav>Toggle navigation</aria_menu_toggle_nav>
+	<aria_menu_tracking_table>Completion Table</aria_menu_tracking_table>	
+	<popup_pill_completed_title>Pill completed!</popup_pill_completed_title>
+	<popup_pill_completed_body>Now you can go on with the other resources</popup_pill_completed_body>
+	<accessibility_autorun_pretext>This resource will automatically start in </accessibility_autorun_pretext>
+	<accessibility_autorun_posttext>seconds</accessibility_autorun_posttext>
+	<accessibility_autorun_aborttext>CANCEL</accessibility_autorun_aborttext>
+	<timecage_disclaimer_init_title>Welcome</timecage_disclaimer_init_title>
+	<timecage_disclaimer_init_body>This resource has a minimum play time shown in the timer.
+	To complete it you need to play all the objects and also be connected for the time needed to absord all the concepts.
+	Therefore be sure the completion bar is up to 100% and the timer is also down to zero.
+	</timecage_disclaimer_init_body>
+	<timecage_disclaimer_init_confirm>OK, I understand</timecage_disclaimer_init_confirm>
+	<timecage_disclaimer_end_title>Attention, timer is not over!</timecage_disclaimer_end_title>
+	<timecage_disclaimer_end_body>This resource is timed. There are still MINUTES_TIME_CAGE_PLACEHOLDER minutes and SECONDS_TIME_CAGE_PLACEHOLDER seconds left to completion. Use this time to study in deep meaningful object and the attached PDFs</timecage_disclaimer_end_body>
+	<timecage_disclaimer_end_confirm>OK, I understand</timecage_disclaimer_end_confirm>	
+</labels>

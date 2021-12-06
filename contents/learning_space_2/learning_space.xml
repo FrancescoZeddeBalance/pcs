@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LS_data>
+
+	<LS_title>PCS nei mercati di riferimento e conseguenze delle violazioni</LS_title>
+	<LS_showTipOnClosingMenu>true</LS_showTipOnClosingMenu>
+	<LS_autoHideMenu>true</LS_autoHideMenu>
+	<LS_autoHideMenuShowingTime>2.0</LS_autoHideMenuShowingTime>
+	<LS_openMenuLabel>Apri il menu delle unità elementari</LS_openMenuLabel>
+	<LS_closeMenuLabel>Chiudi il menu delle unità elementari</LS_closeMenuLabel>
+	<LS_unitaMenuLabel>unità</LS_unitaMenuLabel>
+	<LS_propedeuticMode>true</LS_propedeuticMode>
+
+	
+	
+	<LS_menu>
+		<LS_menuItem id="47" label="Pratiche commerciali scorrette nei mercati di riferimento - parte 1" descr=""  urlToLoad="video_mp4/PCS_7.mp4" automaticGoNext="true" propedeuticTimeLine="true" urlToSubtitleMobile="video_mp4/PCS_7.vtt"  />
+		
+		<LS_menuItem id="48" label="Pratiche commerciali scorrette nei mercati di riferimento - parte 2" descr=""  urlToLoad="video_mp4/PCS_8.mp4" automaticGoNext="true" propedeuticTimeLine="true" urlToSubtitleMobile="video_mp4/PCS_8.vtt"  />
+		
+		<LS_menuItem id="49" label="Pratiche commerciali scorrette e norme di settore" descr=""  urlToLoad="video_mp4/PCS_9.mp4" automaticGoNext="true" propedeuticTimeLine="true" urlToSubtitleMobile="video_mp4/PCS_9.vtt"  />
+		
+		<LS_menuItem id="50" label="Conseguenze della violazione delle norme poste a tutela del consumatore" descr=""  urlToLoad="video_mp4/PCS_10.mp4" automaticGoNext="true" propedeuticTimeLine="true" urlToSubtitleMobile="video_mp4/PCS_10.vtt"  />
+		
+		
+	</LS_menu>
+</LS_data> 

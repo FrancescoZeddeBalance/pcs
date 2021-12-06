@@ -1,0 +1,1166 @@
+@charset "utf-8";
+
+/* IE 6 non supporta max-width, quindi viene usata per impostazione predefinita la larghezza 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*@font-face {
+    font-family: 'muli';
+    src: url('../../../contents/associazioni/muli-webfont.eot');
+    src: url('../../../contents/associazioni/muli-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../contents/associazioni/muli-webfont.woff2') format('woff2'),
+         url('../../../contents/associazioni/muli-webfont.woff') format('woff'),
+         url('../../../contents/associazioni/muli-webfont.ttf') format('truetype'),
+         url('../../../contents/associazioni/muli-webfont.svg#muliregular') format('svg');
+	 src: local('muliregular'), url('muli-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulilight';
+    src: url('../../../contents/associazioni/muli-light-webfont.woff2') format('woff2'),
+         url('../../../contents/associazioni/muli-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mulibold';
+    src: url('../../../contents/associazioni/muli-bold-webfont.woff2') format('woff2'),
+         url('../../../contents/associazioni/muli-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../../../contents/associazioni/NexaBold.eot');
+    src: url('../../../contents/associazioni/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../../../contents/associazioni/NexaBold.woff2') format('woff2'),
+        url('../../../contents/associazioni/NexaBold.woff') format('woff'),
+        url('../../../contents/associazioni/NexaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'DM_Sans_bold';
+    src: url('../../fonts/DMSans-Bold.eot');
+    src: url('../../fonts/DMSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/DMSans-Bold.woff2') format('woff2'),
+        url('../../fonts/DMSans-Bold.woff') format('woff'),
+        url('../../fonts/DMSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM_Sans_medium';
+    src: url('../../fonts/DMSans-Medium.eot');
+    src: url('../../fonts/DMSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/DMSans-Medium.woff2') format('woff2'),
+        url('../../fonts/DMSans-Medium.woff') format('woff'),
+        url('../../fonts/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM_Sans_regular';
+    src: url('../../fonts/DMSans-Regular.eot');
+    src: url('../../fonts/DMSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/DMSans-Regular.woff2') format('woff2'),
+        url('../../fonts/DMSans-Regular.woff') format('woff'),
+        url('../../fonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+#contentMK4 .st0{fill:#31AF91;}
+#contentMK4 .st1{fill:#FFFFFF;}
+
+#contentMK4 .stCB0{fill:#FFFFFF;}
+#contentMK4 .stCB1{fill:#B00020;}
+
+#contentMK4{	
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+	font-size:12px;
+	font-family:'muli', Arial, Helvetica, sans-serif;
+	background-color:#000;
+	background-color:#EDECE4;
+	height:500px;	
+	/*background-color:#FFF000;*/
+}
+
+#contentMK4 .active{
+  border: 2px solid black;
+  background-color: #f8f8f8;
+}
+
+#contentMK4 ul[role="menu"] li[role="menuitem"]:focus,
+#contentMK4 ul[role="menu"] li[role="menuitem"]:hover {
+  background-color: black;
+  color: white;
+}
+
+#contentMK4 .contentQuizMK4{
+	margin:0 auto;
+	text-align:center;
+	height:100%;
+	display:none;
+	padding:0px;
+	overflow:hidden;
+}
+
+#contentMK4 .boxHelp{
+	position:absolute;
+	/*top:0px;
+	left:0px;*/
+	width:100%;
+	height:100%;
+	background-color:rgba(48, 48, 48, 0.5);
+	display:none;
+	z-index:5;
+}
+
+#contentMK4 .boxHelp hr{
+	margin-top:-0.5em;
+	border-top: 1px solid white;
+	width:90%;
+}
+
+#contentMK4 .muoviBoxHelp{
+	position:absolute;
+	top:-200px;
+	left:0px;
+	width:100%;
+}
+
+#contentMK4 .contboxHelp{
+	width:95%;
+	height:95%;
+	background-color: rgba(66, 66, 66, 0.95);
+	margin:0 auto;
+	margin-top:0.2em;
+	/*border-radius:10px;*/
+}
+
+#contentMK4 .titboxHelp svg{margin-top:-9px;}
+#contentMK4 .titboxHelp #etichettaHelp{margin-left:5px;}
+#contentMK4 .titboxHelp #distanziaEtHelp{}
+#contentMK4 .titboxHelp{
+	/*font-family: 'mulibold';*/
+	color:#ffffff;
+	text-align:left;
+	padding:0.2em;
+	/*font-weight:bold;*/
+	font-size:2.6em;
+	font-weight:bold;
+}
+
+#contentMK4 .txtboxHelp{
+	/*font-family: 'mulilight';*/
+	color:#ffffff;
+	padding-bottom:1em;
+	font-size:1.4em;
+	line-height:1.2em;
+	/*height:11em;*/
+	max-height:18em;
+	margin-top:-1.5em;
+	overflow:auto;
+	width:90%;
+	margin:0 auto;
+	text-align:left;
+}
+
+#contentMK4 .chiudiBoxHelpAssociazioni:focus{
+	/*outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 6px rgba(0,120,215,0.5);*/
+}
+
+#contentMK4 .chiudiBoxCard:focus{
+	/*outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 6px rgba(0,120,215,0.5);*/
+}
+
+#contentMK4 .conclusione{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display:none;
+	z-index:50;
+}
+
+#contentMK4 .conclusione .contTxtConclusioniDD{
+	width:95%;
+	/*height:95%;*/
+	background-color: rgba(255, 255, 255, 1);
+	background-color:#CCCCCC;
+	background-color: rgba(66, 66, 66, 0.95);
+	color:#FFFFFF;
+	margin:0 auto;
+	margin-top:0.2em;
+	/*border-radius:10px;*/
+}
+
+#contentMK4 .conclusione hr{
+	margin-top:-0.6em;
+	border-top: 1px solid white;
+	width:90%;
+}
+
+#contentMK4 .conclusione .titConclusioniDD{
+	/*font-family: 'mulibold';*/
+	color:#ffffff;
+	text-align:center;
+	padding:0.2em;
+	/*font-weight:bold;*/
+	font-size:2.6em;
+	font-weight:bold;
+}
+
+#contentMK4 .conclusione .txtConclusioniDD{
+	/*padding:1em;*/
+	max-height:10em;
+	overflow:auto;
+	
+	
+	/*font-family: 'mulilight';*/
+	color:#ffffff;
+	padding-bottom:1em;
+	font-size:1.4em;
+	line-height:1.2em;
+	margin-top:-1.5em;
+	overflow:auto;
+	width:90%;
+	margin:0 auto;
+	text-align:left;
+}
+
+#contentMK4 .accendiBordi{
+	border-top: solid 2px rgba(212,20,90,1.00);
+	border-bottom: solid 2px rgba(212,20,90,1.00);
+	border-right: solid 2px rgba(212,20,90,1.00);
+	border-left: solid 2px rgba(212,20,90,1.00);
+}
+
+#contentMK4 .conclusione .contPulsRiavviaDD{
+	width:95%;
+	text-align:center;
+	margin-top:10px;
+	padding:10px;
+}
+
+#contentMK4 .conclusione .pulsRiavviaDD{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	background-color:#CCCCCC;
+	cursor:pointer;
+}
+
+#contentMK4 .conclusione .pulsRiavviaDD:focus{
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 4px rgba(0,120,215,0.5);
+}
+
+#contentMK4 .conclusione .pulsRisSuccDD{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	margin-left:0.2em;
+	background-color:#EDECE4;
+	cursor:pointer;
+}
+
+#contentMK4 .conclusione .pulsRisSuccDD:focus {
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 4px rgba(0,120,215,0.5);   
+}
+
+#contentMK4 #avanza{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	margin-left:0.2em;
+	background-color:#EDECE4;
+	cursor:pointer;
+}
+
+#contentMK4 #avanza:focus {
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 4px rgba(0,120,215,0.5);   
+}
+
+#contentMK4 .contentQuizMK4 div{	
+	text-align:center;	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#contentMK4 .istruzioniAss{
+	font-size:1.4em;
+	/*position:absolute;*/
+	width:100%;
+	/*height:30px;*/
+	top:5px;
+	z-index:4;
+}
+
+#contentMK4 .contentQuizMK4 .areaDropDomanda
+{
+	display:none;
+	float:left;
+	width:100%;
+	height:200px;
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom:0.5em;
+}
+
+#contentMK4 .contentQuizMK4 .areaDropDomanda .margineDomanda
+{
+	width:95%;
+	padding:0.5em;
+	font-size:1em;
+	line-height:1.1em;
+	margin: 0 auto;
+}
+
+#contentMK4 .contentQuizMK4 .txtContenutoDrag{
+	width:98%;
+	padding:0.3em;
+	font-size: 1.2em;
+    line-height: 1em;
+	margin: 0 auto;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreDragSmart{
+	display:none;
+	float:left;
+	width:100%;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreDragTab{
+	display:none;
+	width:100%;
+}
+
+#contentMK4 .contentQuizMK4 .areaDragSmart{
+	position:relative;
+	/*height:130px;*/
+	width:100%;
+	height:100%;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreOpzioni{
+	width:96%;
+	height:85%;
+	margin:0 auto;
+}
+
+#contentMK4 .contentQuizMK4 .contatore
+{
+	padding:0.2em;
+	z-index:2;
+	color:rgba(0,0,0,1.00);
+	text-align:left;
+	padding-left:1em;
+	font-weight:normal;
+}
+
+#contentMK4 .contentQuizMK4 .droppable{
+	display:inline-block;
+	position:relative;
+	font-size:1.2em;
+	line-height: 1em;
+	/*width:45%;*/
+	height:150px;
+	z-index:1;
+	color: white;
+	margin-right:0.2em;
+	margin-bottom:0.2em;
+	/*padding:0.2em;*/
+}
+
+#contentMK4 .contentQuizMK4 .droppable:focus
+{
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 6px rgba(0,120,215,0.5);
+}
+
+#contentMK4 .contentQuizMK4 .droppable img{max-height:80px;}
+
+#contentMK4 .contentQuizMK4 .duedrop{width:140px;height:112px;}
+#contentMK4 .contentQuizMK4 .tredrop{width:120px;height:96px;}
+#contentMK4 .contentQuizMK4 .quattrodrop{width:120px;height:96px;}
+#contentMK4 .contentQuizMK4 .cinquedrop{width:95px;height:76px;}
+#contentMK4 .contentQuizMK4 .seidrop{width:95px;height:76px;}
+
+#contentMK4 .contentQuizMK4 .draggable
+{
+	/*float:left;*/
+	position:relative;
+	display:inline-block;
+	font-size:0.9em;
+	
+	color:#000000;
+	margin-right:0.2em;
+	z-index:3;
+	cursor:move;
+	transform: scale(1, 1);
+}
+
+#contentMK4 .contentQuizMK4 .duedrag{width:140px;height:112px;}
+#contentMK4 .contentQuizMK4 .tredrag{width:120px;height:96px;}
+#contentMK4 .contentQuizMK4 .quattrodrag{width:120px;height:96px;}
+#contentMK4 .contentQuizMK4 .cinquedrag{width:95px;height:76px;}
+#contentMK4 .contentQuizMK4 .seidrag{width:95px;height:76px;}
+
+#contentMK4 .contentQuizMK4 .draggable:focus
+{
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 6px rgba(0,120,215,0.5);
+}
+
+#contentMK4 .contentQuizMK4 .riduci{	
+	-webkit-transform: scale(0.40);
+	-moz-transform: scale(0.40);
+	-o-transform: scale(0.40);
+	transform: scale(0.5, 0.5);
+}
+
+#contentMK4 #menuPopup{
+	display:none;
+	position:absolute;
+	background-color:#CCCCCC;
+	top:70%;
+	z-index:10;
+	width:260px;
+}
+
+#contentMK4 #menuPopup .menuLi{
+	background-color:transparent;
+	padding:0.2em;
+}
+
+#contentMK4 #menuPopup .menuLi:focus{
+	background-color:#000000;
+	color:#FFFFFF;
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 6px rgba(0,120,215,0.5);
+}
+
+#contentMK4 .contentQuizMK4 .draggable img
+{
+	width:145px;
+	height:auto;
+}
+
+#contentMK4 .contentQuizMK4 .draggableVisible{
+	display:block;
+}
+
+#contentMK4 .contentQuizMK4 .draggableClic
+{
+	/*float:left;*/
+	font-size:1.1em;
+	display:none;
+	width:180px;
+	height:160px;
+	margin:0 auto;
+	/*border-radius:5px;*/
+	background-color:#B3B3B3;
+	background-color:rgba(179,179,179,1.00);
+}
+
+#contentMK4 .contentQuizMK4 .draggableClic img
+{
+	/*width:auto;*/	
+	/*max-height:160px;*/
+	/*border-radius:5px;*/
+}
+
+#contentMK4 .contentQuizMK4 .draggableClicVisible{
+	display:block;
+	cursor:pointer;
+}
+
+
+#contentMK4 .contentQuizMK4 .pulsantieraSmartphone{
+	display:none;
+	position:absolute;
+	bottom:-10px;
+	width:100%;
+	height:30px;
+}
+
+#contentMK4 .contentQuizMK4 .pulsSx{
+	float:left;
+	width:10%;
+	
+	background-color:rgba(22,94,130,1.00);
+}
+
+#contentMK4 .contentQuizMK4 .pallino{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background-color:#999999;
+	border-radius:10px;
+	margin-right:5px;
+}
+
+#contentMK4 .arancio{
+	background-color:rgba(255,150,0,1.00);
+}
+
+#contentMK4 .grigio{
+	background-color:rgba(77,77,77,1.00);
+}
+
+#contentMK4 .fuxia{
+	background-color:rgba(212,20,90,1.00);
+}
+#contentMK4 .contentQuizMK4 .contPallini{
+	
+	float:left;
+	width:100%;
+	text-align:center;
+}
+
+#contentMK4 .contentQuizMK4 .pulsDx{
+	float:left;
+	width:10%;
+	background-color:rgba(22,94,130,1.00);
+}
+
+#contentMK4 .contentQuizMK4 #inserisciPulsDx{
+}
+
+#contentMK4 .contentQuizMK4 #pulsDx{
+}
+
+#contentMK4 .contentQuizMK4 .contRispOk{
+	position:relative;
+	height:100%;
+}
+
+#contentMK4 .contentQuizMK4 .feedOk{
+	position:absolute;
+	top:4px;
+	right:2px;
+}
+
+#contentMK4 .contentQuizMK4 .pulsantieraTablet{
+	display:block;
+}
+
+/* Layout tablet: da 481 px a 768 px. Eredita stili da: Layout mobile. */
+
+@media only screen and (min-width: 481px) and (orientation:portrait) {
+#contentMK4{
+	/*background:#0F0;*/ /*verde*/
+	height:450px;
+}
+
+#contentMK4 .contentQuizMK4 .areaDropDomanda
+{
+	float:left;
+	width:100%;
+	/*height:133px;*/
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom:0.5em;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreDragSmart{
+	float:left;
+	width:100%;
+	/*height:260px;*/
+	/*background-color:rgba(146,175,71,1.00);*/
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreOpzioni{
+	height:85%;
+}
+
+#contentMK4 .contentQuizMK4 .areaDragSmart{
+	height:140px;
+	/*background-color:rgba(251,2,6,1.00);*/
+}
+
+#contentMK4 .contentQuizMK4 .droppable{/*height:130px;*/}
+
+#contentMK4 .contentQuizMK4 .droppable img{}
+
+#contentMK4 .contentQuizMK4 .draggable{}
+
+#contentMK4 .contentQuizMK4 .draggableClic{margin-top:0.8em;}
+
+}
+
+@media only screen and (min-width: 375px) and (orientation:portrait){
+
+#contentMK4 .contentQuizMK4 .droppable
+{
+	/*width:180px;
+	height:92px;*/
+	
+}
+
+#contentMK4 .contentQuizMK4 .droppable img{max-height:92px;}
+
+	
+}
+
+@media only screen and (min-width: 568px) and (orientation:landscape){
+#contentMK4{height:360px;}
+
+#contentMK4 .contentQuizMK4 .areaDropDomanda{height:50%;}
+
+#contentMK4 .contentQuizMK4 .duedrop{width:145px;height:116px;}
+#contentMK4 .contentQuizMK4 .tredrop{width:145px;height:116px;}
+#contentMK4 .contentQuizMK4 .quattrodrop{width:120px;height:96px;}
+#contentMK4 .contentQuizMK4 .cinquedrop{width:96px;height:77px;}
+#contentMK4 .contentQuizMK4 .seidrop{width:85px;height:68px;font-size:0.9em;}
+
+#contentMK4 .contentQuizMK4 .duedrag{width:145px;height:116px;}
+#contentMK4 .contentQuizMK4 .tredrag{width:145px;height:116px;}
+#contentMK4 .contentQuizMK4 .quattrodrag{width:120px;height:96px;}
+#contentMK4 .contentQuizMK4 .cinquedrag{width:96px;height:77px;}
+#contentMK4 .contentQuizMK4 .seidrag{width:85px;height:68px;font-size:0.9em;}
+
+
+}
+
+@media only screen and (min-width: 736px) and (orientation:landscape){
+#contentMK4 .contAvanza{
+	/*position:absolute;*/
+	width:100%;
+	text-align:center;
+	left:0;
+}
+
+#contentMK4 .contentQuizMK4 .cinquedrop{width:120px;height:96px;}
+#contentMK4 .contentQuizMK4 .seidrop{width:120px;height:96px;font-size:1em;}
+
+#contentMK4 .contentQuizMK4 .cinquedrag{width:120px;height:96px;}
+#contentMK4 .contentQuizMK4 .seidrag{width:120px;height:96px;font-size:1em;}
+
+}
+
+/* Layout desktop: da 769 px a 1232 px max.  Eredita stili da: Layout mobile e Layout tablet. */
+
+@media only screen and (min-width: 900px) and (orientation:landscape) {
+#contentMK4{
+	height:100%;
+	height:590px;
+	/*background-color:#EDECE4;*/	
+}
+
+#content{
+}
+
+#contentMK4 .contentQuizMK4{
+	/*max-width:550px;
+	max-width:758px;*/
+		
+}
+
+#contentMK4 .contentQuizMK4 div{line-height:16px;}
+
+#contentMK4 .contentQuizMK4 .pallino{
+	width:12px;
+	height:12px;
+	border-radius:12px;
+	margin-right:5px;
+	margin-top:2em;
+}
+
+#contentMK4 .txtboxHelp{}
+
+#contentMK4 .istruzioniAss{
+	position:absolute;
+}
+
+#contentMK4 .contentQuizMK4 .areaDropDomanda{
+	float:left;
+	width:100%;
+	height:200px;
+	height:50%;
+}
+
+#contentMK4 .contentQuizMK4 .areaDropDomandaCinque{
+	float:left;
+	width:40%;
+	height:200px;
+	height:100%;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreDragTab{
+	float:left;
+	width:100%;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreDragTabCinque{
+	float:left;
+	width:40%;
+	height:100%;
+	margin-left:10%;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreOpzioni{
+	width:90%;
+	height:85%;
+	margin:0 auto;
+}
+
+#contentMK4 .contentQuizMK4 .txtContenutoDrag{
+	font-size: 1.4em;
+    line-height: 1.2em;
+}
+
+#contentMK4 .contentQuizMK4 .contaDomande{
+	width:100%;
+	margin-top:1em;
+}
+
+#contentMK4 .contentQuizMK4 .contatore{
+	font-size:1.4em;
+	padding:0.3em;
+	text-align:center;
+	padding-left:1em;
+	/*background-color:rgba(146,175,71,1.00);*/
+}
+
+/*#contentMK4 .contentQuizMK4 .contatore:focus
+{
+	outline:none;
+	border-radius: 1px;
+	box-shadow: 0px 0px 0px 6px rgba(0,120,215,0.5);
+}*/
+
+#contentMK4 .contentQuizMK4 .dragTab{
+	display:inline-block;
+}
+
+#contentMK4 .contentQuizMK4 .droppable{
+	font-size:1.4em;
+	display:inline-block;
+	width:200px;
+	height:160px;
+	/*width: 45%!important;
+    height: 100px!important;*/
+}
+
+#contentMK4 .contentQuizMK4 .droppable table tr td{}
+
+#contentMK4 .contentQuizMK4 .droppable img{
+	width:auto;
+	max-height:160px;
+}
+
+#contentMK4 .contentQuizMK4 .duedrop{width:35%;height:160px;}
+#contentMK4 .contentQuizMK4 .tredrop{width:30%;height:160px;}
+#contentMK4 .contentQuizMK4 .quattrodrop{width:200px;height:160px;}
+#contentMK4 .contentQuizMK4 .cinquedrop{width:170px;height:136px;}
+#contentMK4 .contentQuizMK4 .seidrop{width:170px;height:136px;}
+
+#contentMK4 .contentQuizMK4 .draggable{
+	font-size:1.2em;
+	/*width:200px;
+	height:160px;*/
+	margin-right:0.3em;
+	margin-bottom:0.2em;
+}
+
+#contentMK4 .contentQuizMK4 .draggable img{
+	width:100%;
+	height:auto;
+}
+
+#contentMK4 .contentQuizMK4 .duedrag{width:200px;height:160px;}
+#contentMK4 .contentQuizMK4 .tredrag{width:200px;height:160px;}
+#contentMK4 .contentQuizMK4 .quattrodrag{width:200px;height:160px;}
+#contentMK4 .contentQuizMK4 .cinquedrag{width:170px;height:136px;}
+#contentMK4 .contentQuizMK4 .seidrag{width:170px;height:136px;}
+
+#contentMK4 .contAvanza{
+	/*position:absolute;*/
+	width:100%;
+	text-align:center;
+	bottom:65px;
+	left:0;
+}
+
+#contentMK4 .titboxHelp #distanziaEtHelp{width:41%;}
+/*#contentMK2 #cellaIconaHelp{width:50px;}*/
+#contentMK4 #cellaIconaHelp svg{width:50px; height:50px;}
+
+#contentMK4 .chiudiBoxCard svg{width:30px; height:30px;}
+
+#contentMK4 #svgChiudiHelp{width:30px; height:30px;}
+
+#contentMK4 .titboxHelp{
+	font-size:48px;
+}
+
+#contentMK4 .txtboxHelp{
+	font-size:24px;
+	line-height:24px;
+}
+
+#contentMK4 .chiudiBoxHelpAssociazioni{
+	margin-top:-1em;
+}
+
+#contentMK4 .chiudiBoxHelpAssociazioni svg{
+	width:35px;
+	height:35px;
+}
+
+#contentMK4 .contentQuizMK4 #inserisciPulsSx{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:6%;
+	height:100%;
+	text-align:center;
+}
+
+#contentMK4 .contentQuizMK4 #inserisciDrag{
+	width:84%;
+}
+
+#contentMK4 .contentQuizMK4 #inserisciPulsDx{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:6%;
+	height:100%;
+	text-align:center;
+}
+
+#contentMK4 .contentQuizMK4 .pulsantieraTablet{
+	display:block;
+	position:absolute;
+	bottom:5px;
+	width:100%;
+}
+
+#contentMK4 .feedEsatto{
+	display:block;
+	position:absolute;
+	top:50px;
+	z-index:30;
+	left:1000px;
+	
+	width:140px;
+	height:140px;
+}
+
+#contentMK4 .feedErrato{
+	display:block;
+	position:absolute;
+	top:50px;
+	z-index:30;
+	left:1000px;
+	
+	width:140px;
+	height:140px;
+}
+
+#contentMK4 .conclusione {
+	height:100%;
+}
+
+#contentMK4 .conclusione .txtConclusioniDD{
+	font-size:1.4em;
+	line-height:1.2em;
+	font-size:24px;
+	line-height:24px;
+	max-height:18em;
+	overflow:auto;
+}
+
+#contentMK4 .conclusione .contPulsRiavviaDD{
+	width:95%;
+	width:100%;
+	text-align:center;	
+}
+
+#contentMK4 .conclusione .pulsRiavviaDD{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	cursor:pointer;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (orientation:portrait) {
+#contentMK4{
+	height:100%;
+	background-color:#EDECE4;	
+}
+
+#contentMK4 .contentQuizMK4{
+	/*max-width:550px;
+	max-width:701px;*/
+	height:500px;
+}
+
+#contentMK4 .contentQuizMK4 div{
+	
+	line-height:16px;
+		
+}
+
+#contentMK4 .contentQuizMK4 .pallino{
+	width:12px;
+	height:12px;
+	border-radius:12px;
+	margin-right:5px;
+	margin-top:2em;
+}
+
+#contentMK4 .txtboxHelp{}
+
+#contentMK4 .istruzioniAss{
+	position:absolute;
+}
+
+#contentMK4 .contentQuizMK4 .areaDropDomanda{
+	float:left;
+	width:100%;
+	height:200px;
+	height:50%;
+	margin-top:0;
+}
+
+#contentMK4 .contentQuizMK4 .areaDropDomandaCinque{
+	float:left;
+	width:50%;
+	height:200px;
+	height:100%;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreDragTab{
+	float:left;
+	width:100%;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreDragTabCinque{
+	float:left;
+	width:45%;
+	height:100%;
+	margin-left:5%;
+}
+
+#contentMK4 .contentQuizMK4 .contenitoreOpzioni{
+	width:96%;
+	height:85%;
+	margin:0 auto;
+}
+
+#contentMK4 .contentQuizMK4 .txtContenutoDrag{
+	font-size: 1.4em;
+    line-height: 1.2em;
+}
+
+#contentMK4 .contentQuizMK4 .contaDomande{
+	width:100%;
+	margin-top:1em;
+}
+
+#contentMK4 .contentQuizMK4 .contatore{
+	font-size:1.4em;
+	padding:0.3em;
+	text-align:center;
+	padding-left:1em;
+	/*background-color:rgba(146,175,71,1.00);*/
+}
+
+#contentMK4 .contentQuizMK4 .dragTab{
+	display:inline-block;
+}
+
+
+#contentMK4 .contentQuizMK4 .droppable{
+	display:inline-block;
+	/*width:178px;
+	height:142px;*/
+	/*width: 48%!important;
+    height: 100px!important;	*/
+}
+
+#contentMK4 .contentQuizMK4 .droppable table tr td{}
+
+#contentMK4 .contentQuizMK4 .droppable img{
+	width:auto;
+	max-height:142px;
+}
+
+#contentMK4 .contentQuizMK4 .duedrop{width:35%;height:160px;}
+#contentMK4 .contentQuizMK4 .tredrop{width:30%;height:160px;}
+#contentMK4 .contentQuizMK4 .quattrodrop{width:176px;height:141px;}
+#contentMK4 .contentQuizMK4 .cinquedrop{width:145px;height:116px;}
+#contentMK4 .contentQuizMK4 .seidrop{width:145px;height:116px;}
+
+#contentMK4 .contentQuizMK4 .draggable{
+	/*width:178px;
+	height:142px;*/
+	margin-right:0.3em;
+	margin-bottom:0.2em;
+}
+
+#contentMK4 .contentQuizMK4 .draggable img{
+	width:100%;
+	height:auto;
+}
+
+#contentMK4 .contentQuizMK4 .duedrag{width:200px;height:160px;}
+#contentMK4 .contentQuizMK4 .tredrag{width:200px;height:160px;}
+#contentMK4 .contentQuizMK4 .quattrodrag{width:176px;height:141px;}
+#contentMK4 .contentQuizMK4 .cinquedrag{width:145px;height:116px;}
+#contentMK4 .contentQuizMK4 .seidrag{width:145px;height:116px;}
+
+#contentMK4 .contAvanza{
+	/*position:absolute;*/
+	width:100%;
+	text-align:center;
+	bottom:65px;
+	left:0;
+}
+
+#contentMK4 .titboxHelp #distanziaEtHelp{width:41%;}
+/*#contentMK2 #cellaIconaHelp{width:50px;}*/
+#contentMK4 #cellaIconaHelp svg{width:50px; height:50px;}
+
+#contentMK4 .chiudiBoxCard svg{width:30px; height:30px;}
+
+#contentMK4 #svgChiudiHelp{width:30px; height:30px;}
+
+#contentMK4 .titboxHelp{
+	font-size:48px;
+}
+
+#contentMK4 .txtboxHelp{
+	font-size:24px;
+	line-height:24px;
+}
+
+#contentMK4 .chiudiBoxHelpAssociazioni{
+	margin-top:-1em;
+}
+
+#contentMK4 .chiudiBoxHelpAssociazioni svg{
+	width:35px;
+	height:35px;
+}
+
+#contentMK4 .contentQuizMK4 #inserisciPulsSx{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:6%;
+	height:100%;
+	text-align:center;
+}
+
+#contentMK4 .contentQuizMK4 #inserisciDrag{
+	width:84%;
+}
+
+#contentMK4 .contentQuizMK4 #inserisciPulsDx{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:6%;
+	height:100%;
+	text-align:center;
+}
+
+#contentMK4 .contentQuizMK4 .pulsantieraTablet{
+	display:block;
+	position:absolute;
+	bottom:5px;
+	width:100%;
+}
+
+#contentMK4 .feedEsatto{
+	display:block;
+	position:absolute;
+	top:50px;
+	z-index:30;
+	left:1000px;	
+	width:140px;
+	height:140px;
+}
+
+#contentMK4 .feedErrato{
+	display:block;
+	position:absolute;
+	top:50px;
+	z-index:30;
+	left:1000px;	
+	width:140px;
+	height:140px;
+}
+
+#contentMK4 .conclusione .txtConclusioniDD{
+	font-size:1.4em;
+	line-height:1.2em;
+	font-size:24px;
+	line-height:24px;
+	max-height:18em;
+	overflow:auto;
+}
+
+#contentMK4 .conclusione .contPulsRiavviaDD{
+	width:95%;
+	text-align:center;
+	margin-top:10px;
+	padding:10px;	
+}
+
+#contentMK4 .conclusione .pulsRiavviaDD{
+	display:inline;
+	padding:0.4em;
+	font-size:1.4em;
+	line-height:1em;
+	margin:0 auto;
+	cursor:pointer;
+}
+
+}

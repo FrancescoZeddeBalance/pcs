@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QZ_data>
+	<QZ_titoloQuestionario>Test finale</QZ_titoloQuestionario>
+	<QZ_sogliaSuperamento>6</QZ_sogliaSuperamento>
+	<QZ_numeroDomandeDaMostrare>10</QZ_numeroDomandeDaMostrare>
+	<QZ_random_mix>true</QZ_random_mix>
+	<!-- QZ_ricominciaQuizOgniVolta>true</QZ_ricominciaQuizOgniVolta -->
+	<QZ_confermaRispostaConNext>true</QZ_confermaRispostaConNext>
+	<QZ_completaSoloAlSuccesso>true</QZ_completaSoloAlSuccesso>
+	<QZ_procediSoloSeCorretto>false</QZ_procediSoloSeCorretto>
+	<QZ_mostraReportCorrezioneDomande>true</QZ_mostraReportCorrezioneDomande>
+	<!-- QZ_resultPositiveImage>./contenuti/image_1/success.jpg</QZ_resultPositiveImage -->
+	<!-- QZ_resultNegativeImage>./contenuti/image_1/fail.jpg</QZ_resultNegativeImage -->
+	<QZ_labelStatusEsitoPositivo>
+		<![CDATA[<span style="font-size:1.5rem;color:#000;">Test superato</span>]]>
+	</QZ_labelStatusEsitoPositivo>
+	<QZ_labelStatusEsitoNegativo>
+		<![CDATA[<span style="font-size:1.5rem;color:#000;">Test non superato</span>]]>
+	</QZ_labelStatusEsitoNegativo>
+	<QZ_labelIlTuoPunteggio>
+		<![CDATA[<span style="">risposte corrette: </span>]]>
+	</QZ_labelIlTuoPunteggio>
+	<QZ_labelDomandeCorrette>
+		<![CDATA[Domande risposte <span style="color:#ffffff;">correttamente:</span>]]>
+	</QZ_labelDomandeCorrette>
+	<QZ_labelDomandeSbagliate>
+		<![CDATA[Domande risposte <span style="color:#ffffff;">in modo errato:</span>]]>
+	</QZ_labelDomandeSbagliate>
+	<QZ_labelPulsanteAvanti>Conferma</QZ_labelPulsanteAvanti>
+	<QZ_aria_labelDomanda>Domanda</QZ_aria_labelDomanda>
+	<QZ_aria_labelRisposta>Risposta</QZ_aria_labelRisposta>
+	<QZ_aria_labelCorretto>Corretto</QZ_aria_labelCorretto>
+	<QZ_aria_labelSbagliato>Sbagliato</QZ_aria_labelSbagliato>
+
+	<!-- QZ_trace_interaction>true</QZ_trace_interaction -->
+	<!-- QZ_trace_score>true</QZ_trace_score -->
+
+
+	<QZ_questions>
+		<QZ_question_block QZ_question_id="1"
+		                QZ_correct_answer_id="1"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				Quali sono le categorie rilevanti ai fini della normativa a tutela dei consumatori?
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					Consumatori, micro-imprese, professionisti
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					Consumatori
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					Consumatori e professionisti
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>
+
+<QZ_question_block QZ_question_id="2"
+		                QZ_correct_answer_id="2"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				Chi è il consumatore?
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					Una persona fisica che acquista un prodotto per utilizzarlo solo nell'esercizio della propria attività professionale
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					Una persona fisica che nell'ambito delle pratiche commerciali agisce per fini che non rientrano nel quadro della sua attività commerciale, industriale, professionale, artigianale
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					Qualsiasi persona fisica che acquista un prodotto da un professionista
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>
+		
+<QZ_question_block QZ_question_id="3"
+		                QZ_correct_answer_id="1"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				Cos’è una pratica commerciale?
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					Qualsiasi azione, omissione, condotta o dichiarazione, comunicazione commerciale, ivi comprese la pubblicità e la commercializzazione del prodotto, poste in essere da un professionista in relazione alla promozione, vendita, fornitura di un prodotto o di un servizio ai consumatori
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					Qualsiasi azione posta in essere da un professionista per la promozione, vendita, fornitura di un prodotto, escluse le omissioni
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					Qualsiasi azione o omissione posta in essere da un professionista per la promozione e vendita di un prodotto al solo fine di indurre un consumatore all'acquisto, escluse tutte le attività poste in essere durante l'esecuzione del contratto
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>
+		
+<QZ_question_block QZ_question_id="4"
+		                QZ_correct_answer_id="1"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				Quando una pratica commerciale è scorretta e dunque vietata?
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					Una pratica commerciale è scorretta se è contraria alla diligenza professionale ed è falsa o idonea a falsare in misura apprezzabile il comportamento economico del consumatore medio o della micro-impresa, inducendoli ad una scelta commerciale che non avrebbero fatto
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					Una pratica commerciale è scorretta se non è conforme alle norme che regolano i mercati in cui il Gruppo ACEA opera
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					Una pratica commerciale è scorretta solo se induce effettivamente il consumatore a scelte commerciali diverse da quelle che avrebbe altrimenti fatto, mentre non rileva il rispetto della diligenza professionale
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>
+		
+<QZ_question_block QZ_question_id="5"
+		                QZ_correct_answer_id="1"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				Quando può realizzarsi una pratica commerciale scorretta?
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					Le pratiche commerciali scorrette possono verificarsi in ogni fase del rapporto commerciale (prima o all’atto della stipula del contratto, durante il rapporto contrattuale e anche dopo la cessazione del rapporto stesso)
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					Le pratiche commerciali scorrette possono verificarsi esclusivamente prima della stipula del contratto e durante il rapporto contrattuale
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					Le pratiche commerciali scorrette possono verificarsi esclusivamente durante il rapporto contrattuale
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>
+		
+<QZ_question_block QZ_question_id="6"
+		                QZ_correct_answer_id="1"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				Quando è che una pratica è ingannevole?
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					Quando contiene informazioni non rispondenti al vero ovvero, seppure corretta, induce o è idonea ad indurre il consumatore o la micro-impresa in errore in relazione ad alcune caratteristiche del prodotto o servizio (ad esempio, il prezzo)
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					Solo se il professionista commercializza il prodotto o il servizio mediante forme di pubblicità comparativa illecita
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					Solo se il consumatore è indotto in errore in relazione ai suoi diritti di consumatore
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>
+		
+<QZ_question_block QZ_question_id="7"
+		                QZ_correct_answer_id="1"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				In che cosa consiste una pratica aggressiva? 
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					Una pratica commerciale aggressiva consiste in condotte fortemente invasive che non permettono al consumatore o alla micro-impresa di percepire la convenienza o meno dell’operazione commerciale, o di pianificare le proprie spese e fare scelte consapevoli in merito al prodotto o al servizio
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					Una pratica commerciale aggressiva deve necessariamente consistere in molestie e forme di coercizione
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					Una pratica commerciale aggressiva consiste in condotte volte ad ingannare il consumatore sul contenuto del contratto
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>
+		
+<QZ_question_block QZ_question_id="8"
+		                QZ_correct_answer_id="1"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				Che cosa è consigliato fare per evitare di incorrere in pratiche commerciali scorrette:
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					È necessario porre la massima attenzione in tutte le fasi del rapporto commerciale e con tutti gli interlocutori e non limitarsi al rispetto delle sole norme di settore, ad esempio, gestendo diligentemente le richieste dei clienti, fornendo informazioni chiare ed esaustive rispetto alle istanze e ai reclami inoltrati.
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					È sufficiente studiare attentamente quanto previsto dal Codice Etico, dalla Norma Direzionale del Gruppo ACEA e dalla Guida aziendale ACEA alla conformità antitrust
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					 È necessario comunicare al cliente informazioni chiare sulle modalità di riscossione degli importi dovuti, mentre non si è obbligati a comunicare il periodo previsto per l'eventuale distacco della fornitura in ipotesi di interruzione del servizio
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>
+		
+<QZ_question_block QZ_question_id="9"
+		                QZ_correct_answer_id="1"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				Quale autorità è competente a investigare e comminare sanzioni pecuniarie per pratiche commerciali scorrette?
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					L'Autorità Garante della Concorrenza e del Mercato (AGCM)
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					Il giudice ordinario
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					L’Autorità di regolazione del settore
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>
+		
+<QZ_question_block QZ_question_id="10"
+		                QZ_correct_answer_id="1"
+		                QZ_question_category="prova_1"
+		                QZ_question_img="./contenuti/image_1/gente.jpg"
+		                QZ_random_mix_answer="true" >
+			<QZ_question_text>
+				E’ detta “aggressiva” una pratica realizzata mediante condotte invasive verso il consumatore, che:
+			</QZ_question_text>
+			<QZ_answers>
+				<QZ_question_answer QZ_answer_id="1" >
+					<QZ_answer_text>
+					Incidono sulla sua possibilità di acquisire informazioni necessarie sul contenuto del contratto e non gli permettono di percepire la convenienza dell’operazione commerciale, di pianificare le spese e fare scelte consapevoli
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="2">
+					<QZ_answer_text>
+					Contiene informazioni false
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+				<QZ_question_answer QZ_answer_id="3">
+					<QZ_answer_text>
+					Può indurre il consumatore medio o la micro-impresa ad assumere una decisione commerciale che non avrebbe altrimenti preso
+					</QZ_answer_text>
+					<QZ_answer_feedback></QZ_answer_feedback>
+				</QZ_question_answer>
+			</QZ_answers>
+		</QZ_question_block>		
+	</QZ_questions>
+
+
+	<QZ_custom_results>
+		<QZ_result 
+			QZ_start="0"
+		    QZ_end="1">
+			
+		</QZ_result>
+		<QZ_result 
+			QZ_start="2"
+		    QZ_end="3">
+			
+		</QZ_result>
+		<QZ_result 
+			QZ_start="4"
+		    QZ_end="4">
+		
+		</QZ_result>
+	</QZ_custom_results>
+</QZ_data>

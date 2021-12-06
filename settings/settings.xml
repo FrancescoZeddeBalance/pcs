@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<application_title>Pratiche commerciali scorrette (PCS)</application_title>
+	<!-- pillolaFrameworkVersion>5.4.0.0.1</pillolaFrameworkVersion -->
+	<!-- engineJsFile>./engine/js/default.js</engineJsFile -->
+	<!-- skinCssFile>./engine/styles/default.min.css</skinCssFile -->
+	<!-- refreshOnResize>false</refreshOnResize -->
+	<!-- refreshOnResize>width</refreshOnResize -->
+	<!-- refreshOnResize>all</refreshOnResize -->
+	<!-- useInitiatedObjectsAsHalfProgress>false</useInitiatedObjectsAsHalfProgress -->
+	<!-- genericCoverUrl>./engine/generic_cover/generic_cover.html</genericCoverUrl -->
+	<!-- desktopMaxZoom>1.3</desktopMaxZoom -->
+	<!-- desktopMinZoom>0.5</desktopMinZoom -->
+	<!-- tracingType>SCORM_1.2</tracingType -->
+	<!-- tracingType>BLISTER</tracingType -->
+	<!-- tracingCompress>true</tracingCompress -->
+	<!-- useScormScoreAsProgressMeasure>false</useScormScoreAsProgressMeasure -->
+	<!-- resumeLastViewItem>false</resumeLastViewItem -->
+	<!-- resumeLastViewItem>force</resumeLastViewItem -->
+	<!-- disableAccessibilityFocusEvidence>true</disableAccessibilityFocusEvidence -->
+	<!-- stopVideoOnFocuseLeave>false</stopVideoOnFocuseLeave -->
+	<!-- animatePillTitle>false</animatePillTitle -->
+	<!-- animateMenuText>false</animateMenuText -->
+	<!-- animateMenuIcons>false</animateMenuIcons -->
+	<!-- animateCoverStripes>false</animateCoverStripes -->
+	<!-- unselectedMenuIconColor>#FD2FD2</unselectedMenuIconColor -->
+	<customFooterLogo>./settings/acea.svg</customFooterLogo>
+	<customFooterLeftLogo>./engine/imgs/logo_skilla_footer.svg</customFooterLeftLogo>
+	<!-- pill_language>eng</pill_language -->
+	<!-- pillolaBookmarkReq>STANDARD</pillolaBookmarkReq -->
+	<!-- pillolaBookmarkReq>STRICT</pillolaBookmarkReq -->
+	<!-- pillolaBookmarkReq>ALONEPC</pillolaBookmarkReq -->
+	<!-- pillolaBookmarkCode>bookmark_PILL_CODE</pillolaBookmarkCode -->
+	<!-- pillolaBookmarkVend>bookmark_VENDOR_CODE</pillolaBookmarkVend -->
+	<!-- pillolaBookmarkCli>bookmark_CLIENT_CODE</pillolaBookmarkCli -->
+	<!-- initialDisclaimerTitle>titolo del disclaimer</initialDisclaimerTitle -->
+	<!-- initialDisclaimerText>testo del disclaimer</initialDisclaimerText -->
+	<auto_show_guide_on_first_view>false</auto_show_guide_on_first_view>
+	<!-- pillVideoGuideFileDesktop>https://license1.skilla.com/helpguide/guida_54_DEU.mp4</pillVideoGuideFileDesktop -->
+	<!-- pillVideoGuideFileSmartphone>https://license1.skilla.com/helpguide/guida_smartphone54_DEU.mp4</pillVideoGuideFileSmartphone -->
+	<!-- helpguide_button_html5>false</helpguide_button_html5 -->
+	<!-- helpButtonIconColor>#FD2FD2</helpButtonIconColor -->
+	<!-- showExitButton>true</showExitButton -->
+	<unselectedMenuIconColor>#ced2d5</unselectedMenuIconColor>
+	<useMenuSelectedColorFor_HeaderStripe>true</useMenuSelectedColorFor_HeaderStripe>
+	<useMenuSelectedColorFor_CompletionIcon>true</useMenuSelectedColorFor_CompletionIcon>
+	<useMenuSelectedColorFor_ObjcetIcon>true</useMenuSelectedColorFor_ObjcetIcon>
+	<useMenuSelectedColorFor_ObjcetLabel>true</useMenuSelectedColorFor_ObjcetLabel>
+	<useMenuSelectedColorFor_ObjcetUnderLine>true</useMenuSelectedColorFor_ObjcetUnderLine>
+	<useMenuSelectedColorFor_SmartphoneObjTitle>true</useMenuSelectedColorFor_SmartphoneObjTitle>
+
+	<propedeuticObjectSequence>true</propedeuticObjectSequence>
+	<disableRightClick>false</disableRightClick>
+	<pill_template>ax_pill_light_skin</pill_template>
+
+	
+	<showFinalPopUpDelayInSeconds>1</showFinalPopUpDelayInSeconds>
+
+	<menu>
+
+		
+	<menuItem type="video_mp4" folder="contents/intro" menuItemLabel="Introduzione" urlCopertina_html5="cover.html" menuItemSelectedColor="#006eb7" videoFile="intro.mp4" subtitleFile="intro.vtt"/>
+
+    <menuItem type="learning_space" folder="contents/learning_space_1" urlCopertina_html5="cover.html" menuItemSelectedColor="#f7a600" menuItemLabel="PCS"/>
+
+    <menuItem type="learning_space" folder="contents/learning_space_2" urlCopertina_html5="cover.html" menuItemSelectedColor="#afcb37" menuItemLabel="PCS nei mercati"/>
+
+  <menuItem type="pdfs_on_cover" folder="contents/pdf_obj" urlCopertina_html5="PDFcover.html" menuItemLabel="Download PDF" menuItemSelectedColor="#afcb37"/>
+
+   <menuItem type="quiz" menuItemSelectedColor="#f7a600" involvedInProgress="true" completeAtStart="false" folder="contents/quiz" menuItemLabel="Quiz" urlCopertina_html5="cover.html"/>
+
+  
+        
+
+	</menu>
+
+
+<tracingType>SCORM_1.2</tracingType><pillolaBookmarkCode>Pratiche_commerciali</pillolaBookmarkCode></data>

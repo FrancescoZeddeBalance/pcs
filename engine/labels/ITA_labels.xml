@@ -1,0 +1,53 @@
+<labels>
+	<yesAnswer>Si</yesAnswer>
+	<noAnswer>No</noAnswer>
+	<nav_forward>Avanti</nav_forward>
+	<nav_backward>Indietro</nav_backward>
+	<nav_up>Su</nav_up>
+	<nav_down>Giù</nav_down>
+	<nav_open>Apri</nav_open>
+	<nav_close>Chiudi</nav_close>
+	<nav_accept>Accetto</nav_accept>
+	<nav_restart>Ricomincia</nav_restart>
+	<nav_exit>Esci dalla risorsa</nav_exit>
+	<nav_extra_button_label>Approfondimenti</nav_extra_button_label>
+	<nav_zoom_in>Ingrandisci</nav_zoom_in>
+	<nav_zoom_out>Rimpicciolisci</nav_zoom_out>
+	<nav_search>cerca</nav_search>
+	<nav_cancel_search>annulla ricerca</nav_cancel_search>
+	<help_guide_label>Help Guide</help_guide_label>
+	<resumeLastViewQuestion>Vuoi riprendere dall'ultima risorsa visitata?</resumeLastViewQuestion>
+	<propedeutic_not_available>Risorsa non ancora disponibile</propedeutic_not_available>
+	<propedeutic_complete_formers>Completa le risorse precedenti per accedere a questa risorsa</propedeutic_complete_formers>
+	<aria_menu_tracking_table>Tabella di completamento</aria_menu_tracking_table>
+	<tracking_object_optional>facoltativo</tracking_object_optional>
+	<tracking_object_mandatory>obbligatorio</tracking_object_mandatory>
+	<tracking_object_name>OGGETTO</tracking_object_name>
+	<tracking_object_status>STATO</tracking_object_status>
+	<tracking_object_status_unseen>non iniziato</tracking_object_status_unseen>
+	<tracking_object_status_incomplete>iniziato</tracking_object_status_incomplete>
+	<tracking_object_status_completed>completato</tracking_object_status_completed>
+	<aria_menu_current_selected_item>selezionato</aria_menu_current_selected_item>	
+	<aria_pill_title>Titolo pillola formativa:</aria_pill_title>	
+	<aria_object_title>Titolo oggetto:</aria_object_title>	
+	<aria_completion_progress>Progresso</aria_completion_progress>	
+	<aria_cover_launch_object>Inizia oggetto:</aria_cover_launch_object>	
+	<aria_menu_toggle_nav>Apri e Chiudi Menu di navigazione</aria_menu_toggle_nav>
+	<popup_pill_completed_title>Complimenti!</popup_pill_completed_title>
+	<popup_pill_completed_body>Questo percorso è concluso. Puoi rivedere le risorse o ritornare alla piattaforma per continuare la formazione</popup_pill_completed_body>
+	<accessibility_autorun_pretext>Questa risorsa partirà automaticamente tra</accessibility_autorun_pretext>
+	<accessibility_autorun_posttext>secondi</accessibility_autorun_posttext>
+	<accessibility_autorun_aborttext>ANNULLA</accessibility_autorun_aborttext>
+	<timecage_disclaimer_init_title>Benvenuto</timecage_disclaimer_init_title>
+	<timecage_disclaimer_init_body><![CDATA[Questo percorso ha una durata minima di fruizione indicata nel timer.
+	<br/><br/>
+	Per completarlo è necessario visionare tutti le risorse che lo compongono e restare connessi per il tempo necessario ad assimilarne i contenuti.<br/><br/>
+	Quindi assicurati che la barra di completamento sia al cento per cento e che il timer sia azzerato.]]>
+	</timecage_disclaimer_init_body>
+	<timecage_disclaimer_init_confirm>OK, ho capito</timecage_disclaimer_init_confirm>
+	<timecage_disclaimer_end_title>Attenzione al timer!</timecage_disclaimer_end_title>
+	<timecage_disclaimer_end_body><![CDATA[Il tempo necessario a interiorizzare i concetti chiave del percorso non è ancora trascorso.<br/><br/> 
+	Soffermati sulle parti che preferisci, hai ancora MINUTES_TIME_CAGE_PLACEHOLDER minuti e SECONDS_TIME_CAGE_PLACEHOLDER secondi per approfondire alcuni temi.]]>
+	</timecage_disclaimer_end_body>
+	<timecage_disclaimer_end_confirm>OK, ho capito</timecage_disclaimer_end_confirm>
+</labels>
